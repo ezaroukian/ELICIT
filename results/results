@@ -1,0 +1,18 @@
+#
+# Results on Wednesday September 27 2017 15:26:47 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1506526007,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,_REACTION_TIME_,4380
+1506526007,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,_REACTION_TIME_,4681
+1506526007,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,_REACTION_TIME_,11106
