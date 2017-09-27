@@ -1,3 +1,5 @@
+
+
 Who? 
 <select name='who'>
 	<option value='Clam'>Clam group</option>
@@ -93,3 +95,32 @@ at
 	<option value='AM'>AM</option>
 	<option value='PM'>PM</option>
 </select>		
+
+
+<!-- For some reason this needs to be included to get it to work in the ELICIT HTML file, gets overwritten??-->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<!-- Tipped -->
+	<script type='text/javascript'>
+	$(document).ready(function() {
+	  Tipped.create('.boxes .box');
+	  });
+	  </script>
+	<!-- Style -->
+	<meta name="robots" content="noindex,nofollow" />
+	<!-- Tooltip -->
+	<script type="text/javascript">
+	  $(document).ready(function() {
+	      Tipped.create('.inline');
+	        });
+	</script>
+
+	<!-- Button show hide -->
+	<script type="text/javascript">
+	  function toggle_visibility(id) {
+	  var e = document.getElementById(id);
+	  if(e.style.display == 'block')
+          e.style.display = 'none';
+	  else
+          e.style.display = 'block';
+	  }
+	</script>

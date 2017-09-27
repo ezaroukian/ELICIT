@@ -58,25 +58,23 @@ var items = [
     // NOTE: You could also use the 'Message' controller for the experiment intro (this provides a simple
     // consent checkbox).
 	
-	["training1", "MessageQuestion", {
-		html: { include: "TrainingB.ext.html" },
-		q: "Who?",
-		as: ["yes","no"]
+	["training1", "Message", {
+		html: { include: "TrainingB.ext.html" },//mouseover works
 		}
 	],
 	["training", "MessageForm", {
-		doc: { include: "TrainingB.ext.html" },
-		html: { include: "TrainingB.ans.html"}
+		html: { include: "TrainingB.ext.html" },//mouseover doesn't work (works if ans is same file)
+		answers: { include: "TrainingB.ans.html"}
 		}
 	],
 	["training", "MessageForm", {
-		doc: { include: "Scenario1.ext.html" },
-		html: { include: "Scenario1.ans.html"}
+		html: { include: "Scenario1.ext.html" },
+		answers: { include: "Scenario1.ans.html"}
 		}
 	],
 	["training", "MessageForm", {
-		doc: { include: "Scenario4.ext.html" },
-		html: { include: "Scenario4.ans.html"}
+		html: { include: "Scenario4.ext.html" },
+		answers: { include: "Scenario4.ans.html"}
 		}
 	],
     ["intro", "Form", {

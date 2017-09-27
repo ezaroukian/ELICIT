@@ -96,6 +96,14 @@ jqueryWidget: {
                 }
 
                 var rads = $(dom).find("input[type=radio]");
+				//Add dropdown
+				var drops = $(dom).find("select");
+                for (var i = 0; i < drops.length; ++i) {
+                    var drop = $(drops[i]);
+
+                    rlines.push([["Field name", drop.attr('name')],
+                                 ["Field value", drop.attr('value')]]);
+                }
                 // Sort by name.
                 var rgs = { };
                 for (var i = 0; i < rads.length; ++i) {

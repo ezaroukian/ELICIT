@@ -7,14 +7,18 @@ define_ibex_controller({
                 options: this.options,
                 triggers: [1],
                 children: [
-                    "Message", {
-						html:dget(this.options, "doc"),
-						transfer: null
-						},
-                    "Form", this.options ]
+                    "Message", this.options,
+                    "Form", {
+						html:dget(this.options, "answers")
+					}]
             });
         }
     },
     properties: {
+	    obligatory: ["html"],
+		countsForProgressBar: true,
+		htmlDescription: function (opts) {
+			return truncateHTML(htmlCodeToDOM(opts.html), 100);
+		}
 	}
 });
