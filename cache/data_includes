@@ -1,5 +1,5 @@
 //var shuffleSequence = seq("intro", sepWith("sep", seq("practice", rshuffle("s1", "s2"))), sepWith("sep", rshuffle("q1", "q2")));
-var shuffleSequence = seq("training")
+var shuffleSequence = seq("pipeline","plain")
 
 var practiceItemTypes = ["practice"];
 
@@ -62,19 +62,34 @@ var items = [
 		html: { include: "TrainingB.ext.html" },//mouseover works
 		}
 	],
-	["training", "MessageForm", {
+	["pipeline", "MessageForm", {
 		html: { include: "TrainingB.ext.html" },//mouseover doesn't work (works if ans is same file)
 		answers: { include: "TrainingB.ans.html"}
 		}
 	],
-	["training", "MessageForm", {
+	["pipeline", "MessageForm", {
 		html: { include: "Scenario1.ext.html" },
 		answers: { include: "Scenario1.ans.html"}
 		}
 	],
-	["training", "MessageForm", {
+	["pipeline", "MessageForm", {
 		html: { include: "Scenario4.ext.html" },
 		answers: { include: "Scenario4.ans.html"}
+		}
+	],
+	["plain", "MessageForm", {
+		html: { include: "Scenario5.orig.html" },
+		answers: { include: "Scenario5.ans.html"}
+		}
+	],
+	["plain", "MessageForm", {
+		html: { include: "Scenario7.orig.html" },
+		answers: { include: "Scenario7.ans.html"}
+		}
+	],
+	["plain", "MessageForm", {
+		html: { include: "Scenario8.orig.html" },
+		answers: { include: "Scenario8.ans.html"}
 		}
 	],
     ["intro", "Form", {
