@@ -89,33 +89,33 @@ var items = [
 		}
 	],
 	["trainN", "MessageForm", {
-		html: "<p>4 non-marked up sentences</p>",
+		html: {include: "train.orig.html"},
 		answers: { include: "ans.blank.html"},
 		hideProgressBar: true,
 		countsForProgressBar: false
 		}
 	],
 	["trainN", "Message", {
-		html: "The experiment will now begin.",
+		html: "<p>Well done. The experiment will now begin.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>",
 		hideProgressBar: true,
 		countsForProgressBar: false
 		}
 	],
 	["trainM", "Message", {
-		html: "A message introducing markup",
+		html: "<p>On the next screen you will see a practice scenario with 4 marked up sentences.</p><p>These sentences will not contain sufficient information to determine the who/what/when/where of the terrorist plot, but go ahead and make your best guess so that you can practice entering and submitting you answer.</p><p>Again, this is only a practice scenario. Feel free to take as much time as you need.</p> ",
 		hideProgressBar: true,
 		countsForProgressBar: false
 		}
 	],
 	["trainM", "MessageForm", {
-		html: "<p>4 non-marked up sentences</p>",
+		html: {include: "train.ext.html"},
 		answers: { include: "ans.blank.html"},
 		hideProgressBar: true,
 		countsForProgressBar: false
 		}
 	],
 	["trainM", "Message", {
-		html: "The experiment will now begin.",
+		html: "<p>Well done. The experiment will now begin.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>",
 		hideProgressBar: true,
 		countsForProgressBar: false
 		}
