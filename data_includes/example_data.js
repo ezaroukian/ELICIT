@@ -1,5 +1,7 @@
 //var shuffleSequence = seq("intro", sepWith("sep", seq("practice", rshuffle("s1", "s2"))), sepWith("sep", rshuffle("q1", "q2")));
-var shuffleSequence = seq("pipeline","plain")
+var shuffleSequence = seq("inst", "trainM", sepWith("sep","pipeline"),'toSUS', 'NL.2.p.1', 'NL.2.n.2', 'NL.2.p.3', 'NL.2.n.4', 'NL.2.p.5', 'NL.2.n.6', 'NL.2.p.7', 'NL.2.n.8', 'NL.2.p.9', 'NL.2.n.10',"comments", "trainN", sepWith("sep","plain"),'toSUS', 'NL.2.p.1', 'NL.2.n.2', 'NL.2.p.3', 'NL.2.n.4', 'NL.2.p.5', 'NL.2.n.6', 'NL.2.p.7', 'NL.2.n.8', 'NL.2.p.9', 'NL.2.n.10',"comments");//rshuffle
+
+
 
 var practiceItemTypes = ["practice"];
 
@@ -27,8 +29,13 @@ var defaults = [
     "Form", {
         hideProgressBar: true,
         continueOnReturn: true,
-        saveReactionTime: true
-    }
+        saveReactionTime: true,
+		continueMessage: "Click here to continue"
+    },
+	"MessageForm", {//This doesn't seem to work, I put directly in Form above
+		contMess: "Click here to submit your answer and continue",
+		timeoutForm: 20*60*1000
+	}
 
 ];
 
@@ -44,7 +51,10 @@ var items = [
     //
     //["sr", "__SendResults__", { }],
 
-    ["sep", "Separator", { }],
+    ["sep", "Separator", { 
+		transfer: "keypress",
+		normalMessage: "When ready, press any key to continue to the next scenario"
+	}],
 
     // New in Ibex 0.3-beta19. You can now determine the point in the experiment at which the counter
     // for latin square designs will be updated. (Previously, this was always updated upon completion
@@ -58,18 +68,81 @@ var items = [
     // NOTE: You could also use the 'Message' controller for the experiment intro (this provides a simple
     // consent checkbox).
 	
-	["training1", "Message", {
-		html: { include: "TrainingB.ext.html" },//mouseover works
+//	["practice-pipeline", "Message", {
+//		html: { "Here's a pipeline practice, which will come with instruction. IBEX won't check the answer, so I'll either have to find a way to do it myself or just provide it for the user to compare (before/after submit)" }
+//		}
+//	],
+//	["practice-pipeline", "MessageForm", {
+//		html: { include: "Scenario2.ext.html" },
+//		answers: { include: "Scenario2.ans.html"}
+//		}
+//	],
+
+	["inst", "Message", {
+		html: {include: "instructions.html"}
 		}
 	],
+	["trainN", "Message", {
+		html: "A message introducing no markup",
+		hideProgressBar: true,
+		countsForProgressBar: false
+		}
+	],
+	["trainN", "MessageForm", {
+		html: "<p>4 non-marked up sentences</p>",
+		answers: { include: "ans.blank.html"},
+		hideProgressBar: true,
+		countsForProgressBar: false
+		}
+	],
+	["trainN", "Message", {
+		html: "The experiment will now begin.",
+		hideProgressBar: true,
+		countsForProgressBar: false
+		}
+	],
+	["trainM", "Message", {
+		html: "A message introducing markup",
+		hideProgressBar: true,
+		countsForProgressBar: false
+		}
+	],
+	["trainM", "MessageForm", {
+		html: "<p>4 non-marked up sentences</p>",
+		answers: { include: "ans.blank.html"},
+		hideProgressBar: true,
+		countsForProgressBar: false
+		}
+	],
+	["trainM", "Message", {
+		html: "The experiment will now begin.",
+		hideProgressBar: true,
+		countsForProgressBar: false
+		}
+	],
+//	["pipeline", "Form", {//testing timeout
+//		html: "<p>Timeout?</p>",
+//		timeout: 5*1000
+//		}
+//	],
+//	["pipeline", "MessageForm", {//testing timeout
+//		html: "<p>Timeout?</p>",
+//		answers: "<p>Message+Form</p>",
+//		timeoutForm: 2*1000
+//		}
+//	],
+	
 	["pipeline", "MessageForm", {
-		html: { include: "TrainingB.ext.html" },//mouseover doesn't work (works if ans is same file)
-		answers: { include: "TrainingB.ans.html"}
+		html: { include: "TrainingB.ext.html" },
+		answers: { include: "TrainingB.ans.html"},//trying to do select with required
+		validators: {
+            who: function (s) { if (s!="") return true; else return "Bad value for \u2018age\u2019"; }
+        },
 		}
 	],
 	["pipeline", "MessageForm", {
 		html: { include: "Scenario1.ext.html" },
-		answers: { include: "Scenario1.ans.html"}
+		answers: { include: "ans.blank.html"},
 		}
 	],
 	["pipeline", "MessageForm", {
@@ -92,6 +165,10 @@ var items = [
 		answers: { include: "Scenario8.ans.html"}
 		}
 	],
+	["toSUS","Message", {html: "<p>You will now be asked a series of questions about the style of document you just used to answer the who/what/when/where questions.</p>"}
+	],
+	["comments","Form", {html: "Comments:<br><textarea rows='4' cols='50'></textarea>"}
+	],
     ["intro", "Form", {
         html: { include: "example_intro.html" },
         validators: {
@@ -101,3 +178,5 @@ var items = [
 
   
 ];
+
+items = items.concat(newSUSItems);

@@ -1,70 +1,29 @@
-<div id="clockdiv">Time remaining: -</div>
-<script> 
-var timeInSeconds = 20*60; 
-var currentTime = Date.parse(new Date()); 
-var deadline = new Date(currentTime + timeInSeconds*1000); 
-function getTimeRemaining(endtime){  
-	var t = Date.parse(endtime) - Date.parse(new Date());  
-	var minutes = Math.floor( (t/(1000*60)) ); 
-	var seconds = Math.floor( (t/1000) % 60 ); 
-	if(seconds<0){seconds=0;}  return {    "total": t, "minutes":minutes,   "seconds": seconds  };}
-</script>
-<script>
-//var t = getTimeRemaining(deadline);    
-//try{
-//	document.getElementById("clockdiv").innerHTML = "Minutes remaining: " t.minutes;} 
-//catch(err){}
-</script>
-<script> 
-function updateClock(){
-  var t = getTimeRemaining(deadline);
-	try{ 
-		if(t.minutes<=0 & t.seconds<=0){clearInterval(intervalId );} 
-		else{document.getElementById("clockdiv").innerHTML = "Time remaining: " + t.minutes+":"+('0' + t.seconds).slice(-2);}
-		} 
-		catch(err){}
-}
-updateClock(); // run function once at first to avoid delay
-var timeinterval = setInterval(updateClock,1000);
-</script>
-<br/><br/>
-
-<h1> Terrorist plot: </h1>
-
 Who? 
-<select name='who' class="obligatory" required>
-	<option value=''>Select group</option>
-	<option value='Clam'>Clam group</option>
-	<option value='Conch'>Conch group</option>
-	<option value='Coral'>Coral group</option>
-	<option value='Crab'>Crab group</option>
-	<option value='Mussel'>Mussel group</option>
-	<option value='Oyster'>Oyster group</option>
-	<option value='Scallop'>Scallop group</option>
-	<option value='Shrimp'>Shrimp group</option>
+<select name='who'>
+	<option value='Aqua'>Aqua group</option>
+	<option value='Indigo'>Indigo group</option>
+	<option value='Lime'>Lime group</option>
+	<option value='Maroon'>Maroon group</option>
+	<option value='Orange'>Orange group</option>
+	<option value='Red'>Red group</option>
+	<option value='Tan'>Tan group</option>
 </select>
 What? 
-<select name='what' class="obligatory" required>
-	<option value=''>Select target</option>
-	<option value='consulate'>a consulate</option>
-	<option value='courthouse'>a courthouse</option>
+<select name='what'>
+	<option value='dignitary'>a dignitary</option>
 	<option value='embassy'>an embassy</option>
-	<option value='financial'>a financial institution</option>
-	<option value='laboratory'>a laboratory</option>
-	<option value='religious'>a religious institution</option>
-</select>	
+	<option value='trainstation'>a train station</option>
+</select>		
 Where? 
-<select name='where' class="obligatory" required>
-	<option value=''>Select country</option>
-	<option value='Jiveland'>Jiveland</option>
-	<option value='Polkland'>Polkaland</option>
-	<option value='Swingland'>Swingland</option>
-	<option value='Tangoland'>Tangoland</option>
-	<option value='Waltzland'>Waltzland</option>
+<select name='where'>
+	<option value='Alphaland'>Alphaland</option>
+	<option value='Betaland'>Betaland</option>
+	<option value='Deltaland'>Deltaland</option>
+	<option value='Epsilonland'>Epsilonland</option>
+	<option value='Gamaland'>Gamaland?</option>	
 </select>		
 When? 
-<select name='month' class="obligatory" required>
-	<option value=''>Select month</option>
+<select name='month'>
 	<option value='January'>January</option>
 	<option value='February'>February</option>
 	<option value='March'>March</option>
@@ -78,8 +37,7 @@ When?
 	<option value='November'>November</option>
 	<option value='December'>December</option>
 </select>		
-<select name='day' class="obligatory" required>
-	<option value=''>Select day</option>
+<select name='day'>
 	<option value='1'>1</option>
 	<option value='2'>2</option>
 	<option value='3'>3</option>
@@ -113,8 +71,7 @@ When?
 	<option value='31'>31</option>
 </select>  
 at	
-<select name='time' class="obligatory" required>
-	<option value=''>Select time</option>
+<select name='time'>
 	<option value='1:00'>1:00</option>
 	<option value='2:00'>2:00</option>
 	<option value='3:00'>3:00</option>
@@ -128,14 +85,11 @@ at
 	<option value='11:00'>11:00</option>
 	<option value='12:00'>12:00</option>
 </select>		
-<select name='ampm' class="obligatory" required>
-	<option value=''>Select AM/PM</option>
+<select name='ampm'>
 	<option value='AM'>AM</option>
 	<option value='PM'>PM</option>
 </select>		
-<br>
-<label class="error" for="__ALL_FIELDS__"></label>
-<br>
+
 <!-- For some reason this needs to be included to get it to work in the ELICIT HTML file, gets overwritten??-->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<!-- Tipped -->

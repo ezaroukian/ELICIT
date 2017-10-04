@@ -9,7 +9,9 @@ define_ibex_controller({
                 children: [
                     "Message", this.options,
                     "Form", {
-						html:dget(this.options, "answers")
+						html:dget(this.options, "answers"),
+						timeout:dget(this.options, "timeoutForm"),
+						continueMessage:dget(this.options, "contMess")
 					}]
             });
         }

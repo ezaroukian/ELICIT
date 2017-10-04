@@ -26,6 +26,7 @@ jqueryWidget: {
         this.obligatoryRadioErrorGenerator =
             dget(this.options, "obligatoryRadioErrorGenerator",
                  function (field) { return "You must select an option for \u2018" + field + "\u2019."; });
+		this.timeout = dget(this.options, "timeout", null);//to add timeout
 
         var t = this;
 
@@ -44,6 +45,7 @@ jqueryWidget: {
         }
 
         var HAS_LOADED = false;
+		
 
         function handleClick(dom) {
             return function (e) {
@@ -100,10 +102,22 @@ jqueryWidget: {
 				var drops = $(dom).find("select");
                 for (var i = 0; i < drops.length; ++i) {
                     var drop = $(drops[i]);
+                    if (drop.hasClass("obligatory") && ((! drop.attr('value')) || drop.attr('value').match(/^\s*$/))) {
+                        alertOrAddError(drop.attr('name'), t.obligatoryErrorGenerator(drop.attr('name')));
+                        return;
+                    }
 
+                    if (t.validators[drop.attr('name')]) {
+                        var er = t.validators[drop.attr('name')](drop.attr('value'));
+                        if (typeof(er) == "string") {
+                            alertOrAddError(drop.attr('name'), er);
+                            return;
+                        }
+                    }
                     rlines.push([["Field name", drop.attr('name')],
                                  ["Field value", drop.attr('value')]]);
                 }
+				//End dropdown
                 // Sort by name.
                 var rgs = { };
                 for (var i = 0; i < rads.length; ++i) {
@@ -154,7 +168,7 @@ jqueryWidget: {
             }
         });
         var handler = handleClick(dom);
-
+		
         this.element.append(dom);
 
         if (this.continueMessage) {
@@ -163,7 +177,18 @@ jqueryWidget: {
                                                 .click(handler)));
         }
 
+
+		
         this.creationTime = new Date().getTime();
+		
+		//add timeout attempt
+		if (this.timeout) {
+            var t = this;
+            this.utils.setTimeout(function () {
+                var answerTime = new Date().getTime();
+                t.finishedCallback([[["Field name","timeout"],["Field value", "timeout"]]]);//handleClick(dom) for rlines?
+            }, this.timeout);
+        }
     }
 },
 

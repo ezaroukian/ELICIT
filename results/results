@@ -1,7 +1,7 @@
 #
-# Results on Wednesday September 27 2017 15:26:47 UTC.
+# Results on Wednesday October 04 2017 15:15:27 UTC.
 # USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
-# Design number was non-random = 0
+# Design number was non-random = 12
 #
 # Columns below this comment are as follows:
 # 1. Time results were received.
@@ -13,14 +13,71 @@
 # 7. Group.
 # 8. Field name.
 # 9. Field value.
-1506526007,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,_REACTION_TIME_,4380
-1506526007,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,_REACTION_TIME_,4681
-1506526007,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,_REACTION_TIME_,11106
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,who,Scallop
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,what,consulate
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,where,Swingland
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,month,December
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,day,16
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,time,11:00
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,ampm,AM
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,_REACTION_TIME_,84003
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,who,1
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,what,1
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,where,1
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,when,1
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,_REACTION_TIME_,30977
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,who,Blue
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,what,consulate
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,where,Muland
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,month,January
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,day,1
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,time,1:00
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,ampm,AM
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,_REACTION_TIME_,3936
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
 #
-# Results on Wednesday September 27 2017 17:33:49 UTC.
-# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
-# Design number was non-random = 1
-#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,13,0,NL.2.p.1,NULL,I think that I would use this system frequently.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,13,0,NL.2.p.1,NULL,NULL,1,NULL,1915
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,17,0,NL.2.n.2,NULL,I found the system unnecessarily complex.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,17,0,NL.2.n.2,NULL,NULL,1,NULL,285
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,21,0,NL.2.p.3,NULL,I thought the system was easy to use.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,21,0,NL.2.p.3,NULL,NULL,1,NULL,216
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,25,0,NL.2.n.4,NULL,I think that I would need the support of a technical person to be able to use this system.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,25,0,NL.2.n.4,NULL,NULL,1,NULL,235
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,29,0,NL.2.p.5,NULL,I found the various functions in this system were well integrated.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,29,0,NL.2.p.5,NULL,NULL,1,NULL,171
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,33,0,NL.2.n.6,NULL,I thought there was too much inconsistency in this system.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,33,0,NL.2.n.6,NULL,NULL,1,NULL,167
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,37,0,NL.2.p.7,NULL,I would imagine that most people would learn to use this system very quickly.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,37,0,NL.2.p.7,NULL,NULL,1,NULL,157
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,41,0,NL.2.n.8,NULL,I found the system very cumbersome to use.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,41,0,NL.2.n.8,NULL,NULL,1,NULL,139
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,45,0,NL.2.p.9,NULL,I felt very confident using the system.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,45,0,NL.2.p.9,NULL,NULL,1,NULL,317
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,49,0,NL.2.n.10,NULL,I needed to learn a lot of things before I could get going with this system.
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,49,0,NL.2.n.10,NULL,NULL,1,NULL,332
 # Columns below this comment are as follows:
 # 1. Time results were received.
 # 2. MD5 hash of participant's IP address.
@@ -31,110 +88,5 @@
 # 7. Group.
 # 8. Field name.
 # 9. Field value.
-1506533629,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,_REACTION_TIME_,45716
-1506533629,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,_REACTION_TIME_,9004
-1506533629,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,_REACTION_TIME_,6527
-#
-# Results on Wednesday September 27 2017 18:08:23 UTC.
-# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
-# Design number was non-random = 2
-#
-# Columns below this comment are as follows:
-# 1. Time results were received.
-# 2. MD5 hash of participant's IP address.
-# 3. Controller name.
-# 4. Item number.
-# 5. Element number.
-# 6. Type.
-# 7. Group.
-# 8. Field name.
-# 9. Field value.
-1506535703,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,_REACTION_TIME_,4268
-1506535703,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,_REACTION_TIME_,4884
-1506535703,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,_REACTION_TIME_,4202
-#
-# Results on Wednesday September 27 2017 18:16:58 UTC.
-# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
-# Design number was non-random = 3
-#
-# Columns below this comment are as follows:
-# 1. Time results were received.
-# 2. MD5 hash of participant's IP address.
-# 3. Controller name.
-# 4. Item number.
-# 5. Element number.
-# 6. Type.
-# 7. Group.
-# 8. Field name.
-# 9. Field value.
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,who,Clam
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,what,consulate
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,where,Jiveland
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,month,January
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,day,1
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,time,1:00
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,ampm,AM
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,training,NULL,_REACTION_TIME_,6569
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,who,Azure
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,what,consulate
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,where,Tauland
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,month,December
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,day,1
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,time,12:00
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,ampm,AM
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,training,NULL,_REACTION_TIME_,8840
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,who,Blue
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,what,laboratory
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,where,Muland
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,month,January
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,day,1
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,time,1:00
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,ampm,AM
-1506536218,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,training,NULL,_REACTION_TIME_,5483
-#
-# Results on Thursday September 28 2017 15:02:09 UTC.
-# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
-# Design number was non-random = 4
-#
-# Columns below this comment are as follows:
-# 1. Time results were received.
-# 2. MD5 hash of participant's IP address.
-# 3. Controller name.
-# 4. Item number.
-# 5. Element number.
-# 6. Type.
-# 7. Group.
-# 8. Field name.
-# 9. Field value.
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,who,Clam
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,what,consulate
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,where,Jiveland
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,month,January
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,day,1
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,time,1:00
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,ampm,AM
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,2,0,pipeline,NULL,_REACTION_TIME_,5218
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,who,Azure
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,what,consulate
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,where,Chiland
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,month,January
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,day,1
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,time,1:00
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,ampm,AM
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,3,0,pipeline,NULL,_REACTION_TIME_,3752
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,who,Blue
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,what,consulate
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,where,Muland
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,month,January
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,day,1
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,time,1:00
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,ampm,AM
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,4,0,pipeline,NULL,_REACTION_TIME_,3759
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,who,Bronco
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,what,consulate
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,where,Bassland
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,month,January
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,day,1
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,time,1:00
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,ampm,AM
-1506610930,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,5,0,plain,NULL,_REACTION_TIME_,2782
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,Form,9,0,comments,NULL,,
+1507130128,cf03c7c3d4b26329829201d9c08cdbc1,Form,9,0,comments,NULL,_REACTION_TIME_,2842
