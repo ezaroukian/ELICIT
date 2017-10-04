@@ -83,7 +83,7 @@ var items = [
 		}
 	],
 	["trainN", "Message", {
-		html: "A message introducing no markup",
+		html: "<p>On the next screen you will see a practice scenario with 4 sentences without markup.</p><p>These sentences will not contain sufficient information to determine the who/what/when/where of the terrorist plot, but go ahead and make your best guess so that you can practice entering and submitting you answer.</p><p>Again, this is only a practice scenario. Feel free to take as much time as you need.</p> ",
 		hideProgressBar: true,
 		countsForProgressBar: false
 		}
