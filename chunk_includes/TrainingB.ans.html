@@ -1,32 +1,5 @@
-<div id="clockdiv">Time remaining: -</div>
-<script> 
-var timeInSeconds = 20*60; 
-var currentTime = Date.parse(new Date()); 
-var deadline = new Date(currentTime + timeInSeconds*1000); 
-function getTimeRemaining(endtime){  
-	var t = Date.parse(endtime) - Date.parse(new Date());  
-	var minutes = Math.floor( (t/(1000*60)) ); 
-	var seconds = Math.floor( (t/1000) % 60 ); 
-	if(seconds<0){seconds=0;}  return {    "total": t, "minutes":minutes,   "seconds": seconds  };}
-</script>
-<script>
-//var t = getTimeRemaining(deadline);    
-//try{
-//	document.getElementById("clockdiv").innerHTML = "Minutes remaining: " t.minutes;} 
-//catch(err){}
-</script>
-<script> 
-function updateClock(){
-  var t = getTimeRemaining(deadline);
-	try{ 
-		if(t.minutes<=0 & t.seconds<=0){clearInterval(intervalId );} 
-		else{document.getElementById("clockdiv").innerHTML = "Time remaining: " + t.minutes+":"+('0' + t.seconds).slice(-2);}
-		} 
-		catch(err){}
-}
-updateClock(); // run function once at first to avoid delay
-var timeinterval = setInterval(updateClock,1000);
-</script>
+<div id="clockdiv">Time remaining: -</div> <!-- uses clock.html-->
+
 <br/><br/>
 
 <h1> Terrorist plot: </h1>
@@ -46,12 +19,11 @@ Who?
 What? 
 <select name='what' class="obligatory" required>
 	<option value=''>Select target</option>
+	<option value='ambassador-home'>an ambassador at home</option>
 	<option value='consulate'>a consulate</option>
 	<option value='courthouse'>a courthouse</option>
-	<option value='embassy'>an embassy</option>
-	<option value='financial'>a financial institution</option>
 	<option value='laboratory'>a laboratory</option>
-	<option value='religious'>a religious institution</option>
+	<option value='visiting-ambassador'>a visiting ambassador</option>
 </select>	
 Where? 
 <select name='where' class="obligatory" required>

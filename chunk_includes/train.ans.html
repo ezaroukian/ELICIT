@@ -1,3 +1,32 @@
+<script> 
+var timeInSeconds = 20*60; 
+var currentTime = Date.parse(new Date()); 
+var deadline = new Date(currentTime + timeInSeconds*1000); 
+function getTimeRemaining(endtime){  
+	var t = Date.parse(endtime) - Date.parse(new Date());  
+	var minutes = Math.floor( (t/(1000*60)) ); 
+	var seconds = Math.floor( (t/1000) % 60 ); 
+	if(seconds<0){seconds=0;}  return {    "total": t, "minutes":minutes,   "seconds": seconds  };}
+</script>
+<script>
+//var t = getTimeRemaining(deadline);    
+//try{
+//	document.getElementById("clockdiv").innerHTML = "Minutes remaining: " t.minutes;} 
+//catch(err){}
+</script>
+<script> 
+function updateClock(){
+  var t = getTimeRemaining(deadline);
+	try{ 
+		if(t.minutes<=0 & t.seconds<=0){clearInterval(intervalId );} 
+		else{document.getElementById("clockdiv").innerHTML = "Time remaining: " + t.minutes+":"+('0' + t.seconds).slice(-2);}
+		} 
+		catch(err){}
+}
+updateClock(); // run function once at first to avoid delay
+var timeinterval = setInterval(updateClock,1000);
+</script>
+
 <div id="clockdiv">Time remaining: -</div> <!-- uses clock.html-->
 
 <br/><br/>
@@ -7,31 +36,23 @@
 Who? 
 <select name='who' class="obligatory" required>
 	<option value=''>Select group</option>
-	<option value='Circle'>Circle group</option>
-	<option value='Hexagon'>Hexagon group</option>
-	<option value='Triangle'>Triangle group</option>
-	<option value='Octagon'>Octagon group</option>
-	<option value='Oval'>Oval group</option>	
-	<option value='Rectangle'>Rectangle group</option>
-	<option value='Square'>Square group</option>
+	<option value='Cube'>Cube group</option>
+	<option value='Tetrahedron'>Tetrahedron group</option>
+	<option value='Sphere'>Sphere group</option>	
 </select>
 What? 
 <select name='what' class="obligatory" required>
 	<option value=''>Select target</option>
 	<option value='airport'>an airport</option>
-	<option value='hospital'>a hospital</option>
-	<option value='museum'>a museum</option>
-	<option value='power-plant'>a power plant</option>
-	<option value='cruise-terminal'>a cruise terminal</option>
+	<option value='military-base'>a military base</option>
+	<option value='outdoor-mall'>a pumping station</option>
 </select>		
 Where? 
 <select name='where' class="obligatory" required>
 	<option value=''>Select country</option>
-	<option value='Spiderland'>Spiderland</option>
-	<option value='Tickland'>Tickland</option>
-	<option value='Cricketland'>Cricketland</option>
-	<option value='Flyland'>Flyland</option>
-	<option value='Hornetland'>Hornetland</option>
+	<option value='Bonoboland'>Bonoboland</option>
+	<option value='Gibbonland'>Gibbonland</option>
+	<option value='Lemurland'>Lemurland</option>
 </select>		
 When? 
 <select name='month' class="obligatory" required>
@@ -104,7 +125,7 @@ at
 	<option value='AM'>AM</option>
 	<option value='PM'>PM</option>
 </select>		
-
+<br/><br/>
 <!-- For some reason this needs to be included to get it to work in the ELICIT HTML file, gets overwritten??-->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<!-- Tipped -->

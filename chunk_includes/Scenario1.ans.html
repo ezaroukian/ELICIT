@@ -1,5 +1,13 @@
+<div id="clockdiv">Time remaining: -</div> <!-- uses clock.html-->
+
+<br/><br/>
+
+<h1> Terrorist plot: </h1>
+
+
 Who? 
-<select name='who'>
+<select name='who' class="obligatory" required>
+	<option value=''>Select group</option>
 	<option value='Azure'>Azure group</option>
 	<option value='Brown'>Brown group</option>
 	<option value='Chartreuse'>Chartreuse group</option>
@@ -9,24 +17,26 @@ Who?
 	<option value='Violet'>Violet group</option>
 </select>
 What? 
-<select name='what'>
+<select name='what' class="obligatory" required>
+	<option value=''>Select target</option>
 	<option value='dignitary-visiting'>a visiting dignitary</option>
-	<option value='dignitary-home'>a dignitary at home</option>
 	<option value='embassy'>an embassy</option>
 	<option value='financial'>a financial institution</option>
-	<option value='financial'>a train station</option>
+	<option value='train'>a train station</option>
+	<option value='port'>a port</option>
 </select>		
 Where? 
-<select name='where'>
-	
+<select name='where' class="obligatory" required>	
+	<option value=''>Select country</option>
 	<option value='Chiland'>Chiland</option>
-	<option value='Epsilonland'>Epsilonland</option>
 	<option value='Omegaland'>Omegaland</option>
 	<option value='Psiland'>Psiland</option>
 	<option value='Tauland'>Tauland</option>
+	<option value='Upsilonland'>Upsilonland</option>
 </select>		
 When? 
-<select name='month'>
+<select name='month' class="obligatory" required>
+	<option value=''>Select month</option>
 	<option value='January'>January</option>
 	<option value='February'>February</option>
 	<option value='March'>March</option>
@@ -40,7 +50,8 @@ When?
 	<option value='November'>November</option>
 	<option value='December'>December</option>
 </select>		
-<select name='day'>
+<select name='day' class="obligatory" required>
+	<option value=''>Select day</option>
 	<option value='1'>1</option>
 	<option value='2'>2</option>
 	<option value='3'>3</option>
@@ -74,7 +85,8 @@ When?
 	<option value='31'>31</option>
 </select>  
 at	
-<select name='time'>
+<select name='time' class="obligatory" required>
+	<option value=''>Select time</option>
 	<option value='1:00'>1:00</option>
 	<option value='2:00'>2:00</option>
 	<option value='3:00'>3:00</option>
@@ -88,7 +100,8 @@ at
 	<option value='11:00'>11:00</option>
 	<option value='12:00'>12:00</option>
 </select>		
-<select name='ampm'>
+<select name='ampm' class="obligatory" required>
+	<option value=''>Select AM/PM</option>
 	<option value='AM'>AM</option>
 	<option value='PM'>PM</option>
 </select>		

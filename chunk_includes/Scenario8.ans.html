@@ -1,5 +1,12 @@
+<div id="clockdiv">Time remaining: -</div> <!-- uses clock.html-->
+
+<br/><br/>
+
+<h1> Terrorist plot: </h1>
+
 Who? 
-<select name='who'>
+<select name='who' class="obligatory" required>
+	<option value=''>Select group</option>
 	<option value='Bronco'>Bronco group</option>
 	<option value='Charger'>Charger group</option>
 	<option value='Steeler'>Steeler group</option>	
@@ -7,33 +14,28 @@ Who?
 	<option value='Raider'>Raider group</option>
 	<option value='Raven'>Raven group</option>
 	<option value='Titan'>Titan group</option>
-	
 </select>
 What? 
-<select name='what'>
-	<option value='consulate'>a consulate</option>
-	<option value='courthouse'>a courthouse</option>
-	<option value='embassy'>an embassy</option>
-	<option value='financial'>a financial institution</option>
-	<option value='laboratory'>a laboratory</option>
-	<option value='indoormall'>an indoor mall</option>
-	<option value='outdoormall'>an outdoor mall</option>
-	<option value='military'>a military base</option>
-	<option value='religious'>a religious institution</option>
-	<option value='stockmarket'>a stock market</option>
-	<option value='trainstation'>a train station</option>
+<select name='what' class="obligatory" required>
+	<option value=''>Select target</option>
+	<option value='military-base'>a military base</option>
+	<option value='indoor-mall'>an indoor mall</option>
+	<option value='outdoor-mall'>an outdoor mall</option>
+	<option value='stock-market'>a stock market</option>
+	<option value='train-station'>a train station</option>
 </select>		
 Where? 
-<select name='where'>
+<select name='where' class="obligatory" required>
+	<option value=''>Select country</option>
 	<option value='Bassland'>Bassland</option>
-	<option value='Packerland'>Packerland?</option>
 	<option value='Perchland'>Perchland</option>
 	<option value='Salmonland'>Salmonland</option>
 	<option value='Sharkland'>Sharkland</option>
 	<option value='Troutland'>Troutland</option>
 </select>		
 When? 
-<select name='month'>
+<select name='month' class="obligatory" required>
+	<option value=''>Select month</option>
 	<option value='January'>January</option>
 	<option value='February'>February</option>
 	<option value='March'>March</option>
@@ -47,7 +49,8 @@ When?
 	<option value='November'>November</option>
 	<option value='December'>December</option>
 </select>		
-<select name='day'>
+<select name='day' class="obligatory" required>
+	<option value=''>Select day</option>
 	<option value='1'>1</option>
 	<option value='2'>2</option>
 	<option value='3'>3</option>
@@ -81,7 +84,8 @@ When?
 	<option value='31'>31</option>
 </select>  
 at	
-<select name='time'>
+<select name='time' class="obligatory" required>
+	<option value=''>Select time</option>
 	<option value='1:00'>1:00</option>
 	<option value='2:00'>2:00</option>
 	<option value='3:00'>3:00</option>
@@ -95,11 +99,12 @@ at
 	<option value='11:00'>11:00</option>
 	<option value='12:00'>12:00</option>
 </select>		
-<select name='ampm'>
+<select name='ampm' class="obligatory" required>
+	<option value=''>Select AM/PM</option>
 	<option value='AM'>AM</option>
 	<option value='PM'>PM</option>
 </select>		
-
+<br/><br/>
 <!-- For some reason this needs to be included to get it to work in the ELICIT HTML file, gets overwritten??-->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<!-- Tipped -->

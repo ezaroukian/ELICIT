@@ -1,5 +1,12 @@
+<div id="clockdiv">Time remaining: -</div> <!-- uses clock.html-->
+
+<br/><br/>
+
+<h1> Terrorist plot: </h1>
+
 Who? 
-<select name='who'>
+<select name='who' class="obligatory" required>
+	<option value=''>Select group</option>
 	<option value='Fuchsia'>Fuchsia group</option>
 	<option value='Beige'>Beige group</option>
 	<option value='Magenta'>Magenta group</option>
@@ -9,17 +16,17 @@ Who?
 	<option value='Cyan'>Cyan group</option>
 </select>
 What? 
-<select name='what'>
-	<option value='oilpipeline'>an oil pipeline</option>
-	<option value='gaspipeline'>a gas pipeline</option>
-	<option value='powerplant'>a power plant</option>
-	<option value='trainstation'>a train station</option>
-	<option value='busstation'>a bus station</option>
-	<option value='electricplant'>an electric plant</option>
-	<option value='financial'>a financial</option>
+<select name='what' class="obligatory" required>
+	<option value=''>Select target</option>
+	<option value='oil-pipeline'>an oil pipeline</option>
+	<option value='gas-pipeline'>a gas pipeline</option>
+	<option value='power-plant'>a power plant</option>
+	<option value='bus-station'>a bus station</option>
+	<option value='train-station'>a train station</option>
 </select>		
 Where? 
-<select name='where'>
+<select name='where' class="obligatory" required>
+	<option value=''>Select country</option>
 	<option value='Iotaland'>Iotaland</option>
 	<option value='Kappaland'>Kappaland</option>
 	<option value='Lambdaland'>Lambdaland</option>
@@ -27,7 +34,8 @@ Where?
 	<option value='Zetaland'>Zetaland</option>
 </select>		
 When? 
-<select name='month'>
+<select name='month' class="obligatory" required>
+	<option value=''>Select month</option>
 	<option value='January'>January</option>
 	<option value='February'>February</option>
 	<option value='March'>March</option>
@@ -41,7 +49,8 @@ When?
 	<option value='November'>November</option>
 	<option value='December'>December</option>
 </select>		
-<select name='day'>
+<select name='day' class="obligatory" required>
+	<option value=''>Select day</option>
 	<option value='1'>1</option>
 	<option value='2'>2</option>
 	<option value='3'>3</option>
@@ -75,7 +84,8 @@ When?
 	<option value='31'>31</option>
 </select>  
 at	
-<select name='time'>
+<select name='time' class="obligatory" required>
+	<option value=''>Select time</option>
 	<option value='1:00'>1:00</option>
 	<option value='2:00'>2:00</option>
 	<option value='3:00'>3:00</option>
@@ -89,7 +99,8 @@ at
 	<option value='11:00'>11:00</option>
 	<option value='12:00'>12:00</option>
 </select>		
-<select name='ampm'>
+<select name='ampm' class="obligatory" required>
+	<option value=''>Select AM/PM</option>
 	<option value='AM'>AM</option>
 	<option value='PM'>PM</option>
 </select>		
