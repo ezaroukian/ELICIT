@@ -49,7 +49,7 @@ var items = [
 
 	["middle", "Message", { 
 		html: "<p>You have completed the first half of this experiment.</p>",
-		continueMessage: "Click here to contine to the second half of the experiment"
+		continueMessage: "Click here to continue to the second half of the experiment"
 	}],
 
 //	["practice-pipeline", "Message", {
