@@ -5,9 +5,13 @@ define_ibex_controller({
             this.options.transfer = null;
             this.element.VBox({
                 options: this.options,
-                triggers: [1],
+                triggers: [2],
                 children: [
                     "Message", this.options,
+					"Message", {
+						html: { include: "clock.html"},//I built in a clock! Probably not an A+ idea, but easy for now
+						transfer: null
+						}, 
                     "Form", {
 						html:dget(this.options, "answers"),
 						timeout:dget(this.options, "timeoutForm"),
