@@ -33,8 +33,8 @@ tnames_li=tnames_li+[trains_li[0][0],trains_li[3][0]]
 #Build up comments
 nums_il = ["1."]*1+["2."]*1
 nums_li = nums_il[::-1]
-comms =[[pipeline+".comments","Form", {"html": "Any comments or feedback you'd like to provide?:<br><textarea name='comments' rows='4' cols='50'></textarea>"}],
-        [plain+".comments","Form", {"html": "Any comments or feedback you'd like to provide?:<br><textarea name='comments' rows='4' cols='50'></textarea>"}],
+comms =[[pipeline+".comments","Form", {"html": "Any comments or feedback you'd like to provide?<br><textarea name='comments' rows='4' cols='50'></textarea>"}],
+        [plain+".comments","Form", {"html": "Any comments or feedback you'd like to provide?<br><textarea name='comments' rows='4' cols='50'></textarea>"}],
 ]       
 comms_il = copy.deepcopy(comms)
 comms_li = copy.deepcopy(comms)

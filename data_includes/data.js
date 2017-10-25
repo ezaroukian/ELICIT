@@ -166,7 +166,9 @@ var items = [
 	],
 	
 	["end","Message", {
-		html: "Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers."}
+		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
+		continueMessage: "Click here to send your answers to the server and complete the experiment"
+		}
 	],
 	
 	

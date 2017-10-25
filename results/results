@@ -523,3 +523,204 @@
 # 9. Field value.
 1508438768,cf03c7c3d4b26329829201d9c08cdbc1,Form,20,0,2.ext.comments,NULL,comments,qweqwe
 1508438768,cf03c7c3d4b26329829201d9c08cdbc1,Form,20,0,2.ext.comments,NULL,_REACTION_TIME_,3147
+#
+# Results on Wednesday October 25 2017 19:46:38 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 28
+#
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Field name.
+#     Col. 9: Field value.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Question,0,0,inst,NULL,Do you consider English your first or primary language?,Yes,1,6109
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,who,Cube
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,what,airport
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,where,Bonoboland
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,month,January
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,day,1
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,time,1:00
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,ampm,AM
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,20,0,1.orig.train,NULL,_REACTION_TIME_,87676
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,who,Circle
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,what,airport
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,where,Spiderland
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,month,January
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,day,1
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,time,1:00
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,ampm,AM
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,15,0,1.orig.Scenario7,NULL,_REACTION_TIME_,5890
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,who,Gray
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,what,courthouse
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,where,Muland
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,month,January
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,day,1
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,time,1:00
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,ampm,AM
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,14,0,1.orig.Scenario4,NULL,_REACTION_TIME_,5646
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,25,0,1.orig.SUS.p.1,NULL,I think that I would use this system frequently.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,25,0,1.orig.SUS.p.1,NULL,NULL,1,NULL,1810
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,29,0,1.orig.SUS.n.2,NULL,I found the system unnecessarily complex.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,29,0,1.orig.SUS.n.2,NULL,NULL,1,NULL,137
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,33,0,1.orig.SUS.p.3,NULL,I thought the system was easy to use.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,33,0,1.orig.SUS.p.3,NULL,NULL,1,NULL,43
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,37,0,1.orig.SUS.n.4,NULL,I think that I would need the support of a technical person to be able to use this system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,37,0,1.orig.SUS.n.4,NULL,NULL,1,NULL,139
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,41,0,1.orig.SUS.p.5,NULL,I found the various functions in this system were well integrated.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,41,0,1.orig.SUS.p.5,NULL,NULL,1,NULL,133
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,45,0,1.orig.SUS.n.6,NULL,I thought there was too much inconsistency in this system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,45,0,1.orig.SUS.n.6,NULL,NULL,1,NULL,92
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,49,0,1.orig.SUS.p.7,NULL,I would imagine that most people would learn to use this system very quickly.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,49,0,1.orig.SUS.p.7,NULL,NULL,1,NULL,161
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,53,0,1.orig.SUS.n.8,NULL,I found the system very cumbersome to use.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,53,0,1.orig.SUS.n.8,NULL,NULL,1,NULL,71
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,57,0,1.orig.SUS.p.9,NULL,I felt very confident using the system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,57,0,1.orig.SUS.p.9,NULL,NULL,1,NULL,136
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,61,0,1.orig.SUS.n.10,NULL,I needed to learn a lot of things before I could get going with this system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,61,0,1.orig.SUS.n.10,NULL,NULL,1,NULL,175
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Form,23,0,1.orig.comments,NULL,comments,122211
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Form,23,0,1.orig.comments,NULL,_REACTION_TIME_,3088
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,who,Cube
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,what,airport
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,where,Bonoboland
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,month,January
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,day,2
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,time,1:00
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,ampm,AM
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,17,0,2.ext.train,NULL,_REACTION_TIME_,4967
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,who,Steeler
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,what,military-base
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,where,Bassland
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,month,January
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,day,1
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,time,2:00
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,ampm,AM
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,13,0,2.ext.Scenario8,NULL,_REACTION_TIME_,6700
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,who,Gold
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,what,dignitary-visiting
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,where,Chiland
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,month,January
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,day,2
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,time,2:00
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,ampm,AM
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,12,0,2.ext.Scenario1,NULL,_REACTION_TIME_,7101
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,27,0,2.ext.SUS.p.1,NULL,I think that I would use this system frequently.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,27,0,2.ext.SUS.p.1,NULL,NULL,2,NULL,5528
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,31,0,2.ext.SUS.n.2,NULL,I found the system unnecessarily complex.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,31,0,2.ext.SUS.n.2,NULL,NULL,2,NULL,141
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,35,0,2.ext.SUS.p.3,NULL,I thought the system was easy to use.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,35,0,2.ext.SUS.p.3,NULL,NULL,2,NULL,151
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,39,0,2.ext.SUS.n.4,NULL,I think that I would need the support of a technical person to be able to use this system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,39,0,2.ext.SUS.n.4,NULL,NULL,2,NULL,104
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,43,0,2.ext.SUS.p.5,NULL,I found the various functions in this system were well integrated.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,43,0,2.ext.SUS.p.5,NULL,NULL,2,NULL,111
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,47,0,2.ext.SUS.n.6,NULL,I thought there was too much inconsistency in this system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,47,0,2.ext.SUS.n.6,NULL,NULL,2,NULL,156
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,51,0,2.ext.SUS.p.7,NULL,I would imagine that most people would learn to use this system very quickly.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,51,0,2.ext.SUS.p.7,NULL,NULL,2,NULL,133
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,55,0,2.ext.SUS.n.8,NULL,I found the system very cumbersome to use.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,55,0,2.ext.SUS.n.8,NULL,NULL,2,NULL,203
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,59,0,2.ext.SUS.p.9,NULL,I felt very confident using the system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,59,0,2.ext.SUS.p.9,NULL,NULL,2,NULL,356
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,63,0,2.ext.SUS.n.10,NULL,I needed to learn a lot of things before I could get going with this system.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,AcceptabilityJudgment,63,0,2.ext.SUS.n.10,NULL,NULL,2,NULL,242
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Form,22,0,2.ext.comments,NULL,comments,
+1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Form,22,0,2.ext.comments,NULL,_REACTION_TIME_,1945
