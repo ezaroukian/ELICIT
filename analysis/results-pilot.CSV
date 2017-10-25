@@ -1,0 +1,253 @@
+#
+# Results on Thursday September 28 2017 17:33:43 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 4
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,who,Clam
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,what,consulate
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,where,Jiveland
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,month,January
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,day,1
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,time,1:00
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,ampm,AM
+1506620023,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,_REACTION_TIME_,4485
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,who,Azure
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,what,consulate
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,where,Chiland
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,month,January
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,day,1
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,time,1:00
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,ampm,AM
+1506620023,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,_REACTION_TIME_,4999
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,who,Blue
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,what,consulate
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,where,Muland
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,month,January
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,day,1
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,time,1:00
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,ampm,AM
+1506620023,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,_REACTION_TIME_,2844
+#
+# Results on Thursday September 28 2017 17:35:02 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 5
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,who,Clam
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,what,consulate
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,where,Jiveland
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,month,January
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,day,1
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,time,1:00
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,ampm,AM
+1506620103,d7528859111780250e15493880b79267,MessageForm,2,0,training,NULL,_REACTION_TIME_,5737
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,who,Azure
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,what,consulate
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,where,Chiland
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,month,January
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,day,1
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,time,1:00
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,ampm,AM
+1506620103,d7528859111780250e15493880b79267,MessageForm,3,0,training,NULL,_REACTION_TIME_,9329
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,who,Blue
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,what,consulate
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,where,Muland
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,month,January
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,day,1
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,time,1:00
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,ampm,AM
+1506620103,d7528859111780250e15493880b79267,MessageForm,4,0,training,NULL,_REACTION_TIME_,7623
+#
+# Results on Thursday October 19 2017 19:52:48 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 28
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,who,Cube
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,what,outdoor-mall
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,where,Gibbonland
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,month,January
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,day,1
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,time,11:00
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,ampm,AM
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,15,0,1.ext.train,NULL,_REACTION_TIME_,58239
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,who,Turquoise
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,what,secular-school
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,where,Piland
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,month,January
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,day,15
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,time,9:00
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,ampm,AM
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,10,0,1.ext.Scenario4,NULL,_REACTION_TIME_,879102
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,who,Charger
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,what,indoor-mall
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,where,Salmonland
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,month,December
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,day,15
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,time,10:00
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,ampm,AM
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,11,0,1.ext.Scenario8,NULL,_REACTION_TIME_,425109
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,22,0,1.ext.SUS.p.1,NULL,I think that I would use this system frequently.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,22,0,1.ext.SUS.p.1,NULL,NULL,4,NULL,9404
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,26,0,1.ext.SUS.n.2,NULL,I found the system unnecessarily complex.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,26,0,1.ext.SUS.n.2,NULL,NULL,2,NULL,6501
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,30,0,1.ext.SUS.p.3,NULL,I thought the system was easy to use.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,30,0,1.ext.SUS.p.3,NULL,NULL,3,NULL,2890
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,34,0,1.ext.SUS.n.4,NULL,I think that I would need the support of a technical person to be able to use this system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,34,0,1.ext.SUS.n.4,NULL,NULL,2,NULL,6199
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,38,0,1.ext.SUS.p.5,NULL,I found the various functions in this system were well integrated.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,38,0,1.ext.SUS.p.5,NULL,NULL,4,NULL,4221
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,42,0,1.ext.SUS.n.6,NULL,I thought there was too much inconsistency in this system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,42,0,1.ext.SUS.n.6,NULL,NULL,2,NULL,3637
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,46,0,1.ext.SUS.p.7,NULL,I would imagine that most people would learn to use this system very quickly.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,46,0,1.ext.SUS.p.7,NULL,NULL,4,NULL,3065
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,50,0,1.ext.SUS.n.8,NULL,I found the system very cumbersome to use.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,50,0,1.ext.SUS.n.8,NULL,NULL,2,NULL,6492
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,54,0,1.ext.SUS.p.9,NULL,I felt very confident using the system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,54,0,1.ext.SUS.p.9,NULL,NULL,4,NULL,2391
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,58,0,1.ext.SUS.n.10,NULL,I needed to learn a lot of things before I could get going with this system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,58,0,1.ext.SUS.n.10,NULL,NULL,3,NULL,6669
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,Form,20,0,1.ext.comments,NULL,comments,
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,Form,20,0,1.ext.comments,NULL,_REACTION_TIME_,1831
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,who,Cube
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,what,outdoor-mall
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,where,Gibbonland
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,month,January
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,day,1
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,time,11:00
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,ampm,AM
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,18,0,2.orig.train,NULL,_REACTION_TIME_,29405
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,who,Triangle
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,what,cruise-terminal
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,where,Tickland
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,month,September
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,day,1
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,time,10:00
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,ampm,PM
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,13,0,2.orig.Scenario7,NULL,_REACTION_TIME_,316299
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,who,Violet
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,what,financial-institution
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,where,Psiland
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,month,April
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,day,5
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,time,11:00
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,ampm,AM
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,MessageForm,12,0,2.orig.Scenario1,NULL,_REACTION_TIME_,245812
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,24,0,2.orig.SUS.p.1,NULL,I think that I would use this system frequently.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,24,0,2.orig.SUS.p.1,NULL,NULL,2,NULL,2792
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,28,0,2.orig.SUS.n.2,NULL,I found the system unnecessarily complex.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,28,0,2.orig.SUS.n.2,NULL,NULL,3,NULL,2148
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,32,0,2.orig.SUS.p.3,NULL,I thought the system was easy to use.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,32,0,2.orig.SUS.p.3,NULL,NULL,2,NULL,2878
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,36,0,2.orig.SUS.n.4,NULL,I think that I would need the support of a technical person to be able to use this system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,36,0,2.orig.SUS.n.4,NULL,NULL,2,NULL,5125
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,40,0,2.orig.SUS.p.5,NULL,I found the various functions in this system were well integrated.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,40,0,2.orig.SUS.p.5,NULL,NULL,2,NULL,3005
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,44,0,2.orig.SUS.n.6,NULL,I thought there was too much inconsistency in this system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,44,0,2.orig.SUS.n.6,NULL,NULL,3,NULL,3024
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,48,0,2.orig.SUS.p.7,NULL,I would imagine that most people would learn to use this system very quickly.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,48,0,2.orig.SUS.p.7,NULL,NULL,2,NULL,2740
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,52,0,2.orig.SUS.n.8,NULL,I found the system very cumbersome to use.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,52,0,2.orig.SUS.n.8,NULL,NULL,2,NULL,2353
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,56,0,2.orig.SUS.p.9,NULL,I felt very confident using the system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,56,0,2.orig.SUS.p.9,NULL,NULL,2,NULL,6641
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,60,0,2.orig.SUS.n.10,NULL,I needed to learn a lot of things before I could get going with this system.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,AcceptabilityJudgment,60,0,2.orig.SUS.n.10,NULL,NULL,2,NULL,3798
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,Form,21,0,2.orig.comments,NULL,comments,
+1508442768,0614eb1137b6571d6f5c34bd0ad00f45,Form,21,0,2.orig.comments,NULL,_REACTION_TIME_,6847

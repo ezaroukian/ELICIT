@@ -101,6 +101,7 @@ def makeResFile(filename):
                                     response = int(r[8])
                                     if polarity == "n":#so that 5 always means the same thing
                                         response = abs(response-6)
+                                    _REACTION_TIME_ = r[10]
                                     who=what=where=month=day=time=ampm=commment=whoCorrect=whatCorrect=whereCorrect=dayCorrect=monthCorrect=timeCorrect=ampmCorrect = ""#"NA"
                                     writeRow=True
                             #training and test

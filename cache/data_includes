@@ -42,6 +42,16 @@ var items = [
 //		transfer: "keypress",
 //		normalMessage: "When ready, press any key to continue to the next scenario"
 //	}],
+	["inst", "Question", {
+			instructions: "Your answer to this question will not affect your eligibility for this experiment.",
+			q: "Do you consider English your first or primary language?",
+			as: ["Yes", "No"],
+			randomOrder: "false",
+			presentHorizontally: "true",
+			countsForProgressBar: "false",
+			hideProgressBar: "false"	
+		}
+	],
     ["sep", "Message", { 
 		html: "",
 		continueMessage: "When ready, click to continue to the next scenario"
@@ -49,7 +59,7 @@ var items = [
 
 	["middle", "Message", { 
 		html: "<p>You have completed the first half of this experiment.</p>",
-		continueMessage: "Click here to contine to the second half of the experiment"
+		continueMessage: "Click here to continue to the second half of the experiment"
 	}],
 
 //	["practice-pipeline", "Message", {
@@ -152,8 +162,14 @@ var items = [
 //		answers: { include: "Scenario8.ans.html"}
 //		}
 //	],
-	["toSUS","Message", {html: "<p>You will now be asked a series of questions about the style of document (with/without markup) you just used to answer the who/what/when/where questions.</p>"}
+	["toSUS","Message", {html: '<p>You will now be asked a series of questions about the style of document (with/without markup) you just used to answer the who/what/when/where questions.</p><p>In these questions, "the system" refers to the style of document (with/without markup) you used.</p>'}
 	],
+	
+	["end","Message", {
+		html: "Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers."}
+	],
+	
+	
     ["intro", "Form", {
         html: { include: "example_intro.html" },
         validators: {
