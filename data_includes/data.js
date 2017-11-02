@@ -178,6 +178,7 @@ var items = [
             age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
         }
     } ],
+	["test-after", "Message", { html: {include: 'test.confirm.html'}} ]
 
   
 ];
@@ -260,4 +261,6 @@ else
 //alert(items);
 items = items.concat(SUSItems);
 
-console.log(shuffleSequence);
+//items = [['1.ext.train', 'MessageFormC', {'hideProgressBar': 'true', 'html': {'include': 'train.ext.html'}, 'answers': {'include': 'train.ans.html'}, 'countsForProgressBar': 'false'}], ["train-after", "Message", { 'html': {'include': 'train.confirm.html'}} ]]
+
+//shuffleSequence = seq("1.ext.train", "train-after");

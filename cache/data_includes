@@ -166,7 +166,9 @@ var items = [
 	],
 	
 	["end","Message", {
-		html: "Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers."}
+		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
+		continueMessage: "Click here to send your answers to the server and complete the experiment"
+		}
 	],
 	
 	
@@ -176,6 +178,7 @@ var items = [
             age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
         }
     } ],
+	["test-after", "Message", { html: {include: 'test.confirm.html'}} ]
 
   
 ];
@@ -258,6 +261,7 @@ else
 //alert(items);
 items = items.concat(SUSItems);
 
-console.log(shuffleSequence);
+//items = [['1.ext.train', 'MessageFormC', {'hideProgressBar': 'true', 'html': {'include': 'train.ext.html'}, 'answers': {'include': 'train.ans.html'}, 'countsForProgressBar': 'false'}], ["train-after", "Message", { 'html': {'include': 'train.confirm.html'}} ]]
 
+//shuffleSequence = seq("1.ext.train", "train-after");
 

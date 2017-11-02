@@ -724,3 +724,187 @@
 # 9. Field value.
 1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Form,22,0,2.ext.comments,NULL,comments,
 1508960798,cf03c7c3d4b26329829201d9c08cdbc1,Form,22,0,2.ext.comments,NULL,_REACTION_TIME_,1945
+#
+# Results on Wednesday November 01 2017 19:49:08 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 29
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,who,Tetrahedron
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,what,airport
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,where,Bonoboland
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,month,January
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,day,1
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,time,1:00
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,ampm,AM
+1509565748,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,_REACTION_TIME_,6902
+#
+# Results on Wednesday November 01 2017 19:59:11 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 30
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,who,Cube
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,what,airport
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,where,Bonoboland
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,month,February
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,day,16
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,time,2:00
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,ampm,PM
+1509566351,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,_REACTION_TIME_,10019
+#
+# Results on Wednesday November 01 2017 19:59:54 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 31
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,who,Cube
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,what,military-base
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,where,Bonoboland
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,month,February
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,day,2
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,time,3:00
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,ampm,PM
+1509566394,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,_REACTION_TIME_,9855
+#
+# Results on Wednesday November 01 2017 20:22:54 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 32
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,who,Cube
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,what,airport
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,where,Bonoboland
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,month,January
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,day,1
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,time,1:00
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,ampm,AM
+1509567774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,_REACTION_TIME_,5650
+#
+# Results on Thursday November 02 2017 11:39:34 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 33
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,who,Cube
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,what,airport
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,where,Bonoboland
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,month,January
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,day,1
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,time,2:00
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,ampm,AM
+1509622774,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,_REACTION_TIME_,6927
+#
+# Results on Thursday November 02 2017 11:41:45 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 34
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,who,Cube
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,what,airport
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,where,Bonoboland
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,month,January
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,day,4
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,time,1:00
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,ampm,AM
+1509622905,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,1,0,1.ext.train,NULL,_REACTION_TIME_,14935
+#
+# Results on Thursday November 02 2017 12:58:19 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 35
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,who,Cube
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,what,airport
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,where,Bonoboland
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,month,January
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,day,1
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,time,1:00
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,ampm,AM
+1509627500,cf03c7c3d4b26329829201d9c08cdbc1,MessageForm,0,0,1.ext.train,NULL,_REACTION_TIME_,9501
+#
+# Results on Thursday November 02 2017 13:07:43 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+# Design number was non-random = 36
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+# 10. Field correct.
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,who,Cube*,True
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,what,airport,False
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,where,Bonoboland,False
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,month,January,False
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,day,1,False
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,time,1:00,False
+1509628063,cf03c7c3d4b26329829201d9c08cdbc1,MessageFormC,0,0,1.ext.train,NULL,ampm,AM,False

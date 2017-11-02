@@ -1,0 +1,91 @@
+worker,age,gender,natLang,block,qType,cond,scenario,who,whoCorrect,what,whatCorrect,where,whereCorrect,month,monthCorrect,day,dayCorrect,time,timeCorrect,ampm,ampmCorrect,responseTime,comments,SUS
+d7528859111780250e15493880b79267--1506620023,,,,,,,,Clam,,consulate,,Jiveland,,January,,1,,1:00,,AM,,4485,,,,
+d7528859111780250e15493880b79267--1506620023,,,,,,,,Azure,,consulate,,Chiland,,January,,1,,1:00,,AM,,4999,,,,
+d7528859111780250e15493880b79267--1506620023,,,,,,,,Blue,,consulate,,Muland,,January,,1,,1:00,,AM,,2844,,,,
+d7528859111780250e15493880b79267--1506620103,,,,,,,,Clam,,consulate,,Jiveland,,January,,1,,1:00,,AM,,5737,,,,
+d7528859111780250e15493880b79267--1506620103,,,,,,,,Azure,,consulate,,Chiland,,January,,1,,1:00,,AM,,9329,,,,
+d7528859111780250e15493880b79267--1506620103,,,,,,,,Blue,,consulate,,Muland,,January,,1,,1:00,,AM,,7623,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,training,ext,train,Cube,,outdoor-mall,,Gibbonland,,January,,1,,11:00,,AM,,58239,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,test,ext,Scenario4,Turquoise,False,secular-school,True,Piland,False,January,True,15,False,9:00,True,AM,True,879102,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,test,ext,Scenario8,Charger,True,indoor-mall,True,Salmonland,True,December,True,15,True,10:00,True,AM,True,425109,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,9404,,I think that I would use this system frequently.,p,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,6501,,I found the system unnecessarily complex.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,2890,,I thought the system was easy to use.,p,3
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,6199,,I think that I would need the support of a technical person to be able to use this system.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,4221,,I found the various functions in this system were well integrated.,p,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,3637,,I thought there was too much inconsistency in this system.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,3065,,I would imagine that most people would learn to use this system very quickly.,p,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,6492,,I found the system very cumbersome to use.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,2391,,I felt very confident using the system.,p,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,6669,,I needed to learn a lot of things before I could get going with this system.,n,3
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,1,comments,ext,comments,,,,,,,,,,,,,,,1831,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,training,orig,train,Cube,,outdoor-mall,,Gibbonland,,January,,1,,11:00,,AM,,29405,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,test,orig,Scenario7,Triangle,True,cruise-terminal,True,Tickland,True,September,True,1,True,10:00,True,PM,True,316299,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,test,orig,Scenario1,Violet,True,financial-institution,True,Psiland,True,April,True,5,True,11:00,True,AM,True,245812,,,,
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,2792,,I think that I would use this system frequently.,p,2
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,2148,,I found the system unnecessarily complex.,n,3
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,2878,,I thought the system was easy to use.,p,2
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,5125,,I think that I would need the support of a technical person to be able to use this system.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,3005,,I found the various functions in this system were well integrated.,p,2
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,3024,,I thought there was too much inconsistency in this system.,n,3
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,2740,,I would imagine that most people would learn to use this system very quickly.,p,2
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,2353,,I found the system very cumbersome to use.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,6641,,I felt very confident using the system.,p,2
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,3798,,I needed to learn a lot of things before I could get going with this system.,n,4
+0614eb1137b6571d6f5c34bd0ad00f45--1508442768,,,,2,comments,orig,comments,,,,,,,,,,,,,,,6847,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,training,orig,train,Cube,,outdoor-mall,,Gibbonland,,June,,3,,11:00,,PM,,146357,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,test,orig,Scenario1,Violet,True,financial-institution,True,Psiland,True,April,True,5,True,11:00,True,AM,True,391256,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,test,orig,Scenario4,Silver,True,secular-school,True,Omicronland,True,January,True,1,True,9:00,True,AM,True,155199,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,33575,,I think that I would use this system frequently.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,10117,,I found the system unnecessarily complex.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,2804,,I thought the system was easy to use.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,2781,,I think that I would need the support of a technical person to be able to use this system.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,4129,,I found the various functions in this system were well integrated.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,1652,,I thought there was too much inconsistency in this system.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,1766,,I would imagine that most people would learn to use this system very quickly.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,2951,,I found the system very cumbersome to use.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,1255,,I felt very confident using the system.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,1280,,I needed to learn a lot of things before I could get going with this system.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,1,comments,orig,comments,,,,,,,,,,,,,,,4077,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,training,ext,train,Sphere,,outdoor-mall,,Gibbonland,,July,,1,,11:00,,AM,,125542,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,test,ext,Scenario7,Triangle,True,cruise-terminal,True,Tickland,True,September,True,1,True,10:00,True,PM,True,192335,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,test,ext,Scenario8,Charger,True,indoor-mall,True,Salmonland,True,December,True,15,True,10:00,True,AM,True,103071,,,,
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,2454,,I think that I would use this system frequently.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,588,,I found the system unnecessarily complex.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,519,,I thought the system was easy to use.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,407,,I think that I would need the support of a technical person to be able to use this system.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,533,,I found the various functions in this system were well integrated.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,223,,I thought there was too much inconsistency in this system.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,270,,I would imagine that most people would learn to use this system very quickly.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,179,,I found the system very cumbersome to use.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,209,,I felt very confident using the system.,p,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,247,,I needed to learn a lot of things before I could get going with this system.,n,3
+1c377610b346fe0798f5c376e8b5cf9b--1508935240,,,,2,comments,ext,comments,,,,,,,,,,,,,,,1986,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,training,orig,train,Cube,,outdoor-mall,,Gibbonland,,January,,1,,11:00,,PM,,81392,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,test,orig,Scenario4,Silver,True,secular-school,True,Omicronland,True,January,True,1,True,9:00,True,AM,True,833220,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,test,orig,Scenario1,Violet,True,financial-institution,True,Psiland,True,April,True,5,True,11:00,True,AM,True,892662,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,7816,,I think that I would use this system frequently.,p,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,5996,,I found the system unnecessarily complex.,n,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,2248,,I thought the system was easy to use.,p,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,6245,,I think that I would need the support of a technical person to be able to use this system.,n,4
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,2887,,I found the various functions in this system were well integrated.,p,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,7777,,I thought there was too much inconsistency in this system.,n,3
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,5637,,I would imagine that most people would learn to use this system very quickly.,p,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,3692,,I found the system very cumbersome to use.,n,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,2340,,I felt very confident using the system.,p,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,5322,,I needed to learn a lot of things before I could get going with this system.,n,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,1,comments,orig,comments,,,,,,,,,,,,,,,25445,"This was hard! I had to take notes to keep things straight%2C still not sure of the ""right"" answer. ",,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,training,ext,train,Sphere,,outdoor-mall,,Gibbonland,,January,,1,,11:00,,PM,,48721,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,test,ext,Scenario7,Triangle,True,cruise-terminal,True,Tickland,True,September,True,1,True,10:00,True,PM,True,569579,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,test,ext,Scenario8,Charger,True,indoor-mall,True,Salmonland,True,December,True,15,True,10:00,True,AM,True,561299,,,,
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,3695,,I think that I would use this system frequently.,p,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10640,,I found the system unnecessarily complex.,n,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,2095,,I thought the system was easy to use.,p,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,2876,,I think that I would need the support of a technical person to be able to use this system.,n,3
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,5146,,I found the various functions in this system were well integrated.,p,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,3026,,I thought there was too much inconsistency in this system.,n,1
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,3911,,I would imagine that most people would learn to use this system very quickly.,p,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,3169,,I found the system very cumbersome to use.,n,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,2926,,I felt very confident using the system.,p,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,3460,,I needed to learn a lot of things before I could get going with this system.,n,2
+c84ca1438cf4b36a2682a62dcdfe91fc--1509563817,,,,2,comments,ext,comments,,,,,,,,,,,,,,,39484,The markup was so inconsistent it was not helpful and I had to work to ignore it -- for example it would mark up some groups but not others%2C making it easy to overlook the ones that weren't marked up.  ,,,
