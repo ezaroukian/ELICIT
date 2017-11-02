@@ -119,9 +119,12 @@ jqueryWidget: {
                             return;
                         }
                     }
+
+					
                     rlines.push([["Field name", drop.attr('name')],
                                  ["Field value", drop.attr('value')],
 								 ["Field text", drop.find('option:selected').text()],
+								 ["Field correct text", drop.find("option[value*='*']").text()], 
 								 ["Field correct", drop.attr('value').slice(-1)=="*"]
 								 ]);
 				}

@@ -1,8 +1,8 @@
 <script>
 //if value doesn't end in *, color red/incorrect
-if(saveForLater[0][3][1]==false){}
 
 function colorAnswer(ansArray){
+
 	if(ansArray[3][1]==false){
 		return '<span class="incorrect">'+ansArray[2][1]+'</span>';
 	}
@@ -12,6 +12,8 @@ function colorAnswer(ansArray){
 }
 
 function colorAnswerTrain(ansArray){
+
+	console.log(ansArray[3][1]);
 	return '<span class="correct">'+ansArray[2][1]+'</span>';
 }
 
@@ -26,5 +28,5 @@ document.getElementById("answers").innerHTML = ans;
 
 <p id="answers">Your answers should appear here</p>
 
-<p>(In the experiment, incorrect answers will be shown in <span class="incorrect">red</span>.)<p>
+<p class="Question-instructions-text">In the experiment, incorrect answers will be shown in <span class="incorrect">red</span> with corrections given in parentheses.<p>
 

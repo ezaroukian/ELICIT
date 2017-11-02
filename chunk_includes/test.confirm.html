@@ -1,21 +1,22 @@
 <script>
 //if value doesn't end in *, color red/incorrect
-if(saveForLater[0][3][1]==false){}
-
 function colorAnswer(ansArray){
-	if(ansArray[3][1]==false){
-		return '<span class="incorrect">'+ansArray[2][1]+'</span>';
+	console.log(ansArray[3][1]);
+	if(ansArray[4][1]==false){
+		return '<span class="incorrect">'+ansArray[2][1]+'</span> ('+ansArray[3][1]+")";
 	}
 	else{
 		return '<span class="correct">'+ansArray[2][1]+'</span>';
 	}
 }
 
+//don't color training answers
 function colorAnswerTrain(ansArray){
+
 	return '<span class="correct">'+ansArray[2][1]+'</span>';
 }
 
-var ans = "Who? "+colorAnswer(saveForLater[0])+"<br> What? "+colorAnswer(saveForLater[1])+"<br> Where? "+colorAnswer(saveForLater[2])+"<br> When? "+colorAnswer(saveForLater[3])+" "+colorAnswer(saveForLater[4])+" at "+colorAnswer(saveForLater[5])+colorAnswer(saveForLater[6]);
+var ans = "Who? "+colorAnswer(saveForLater[0])+"<br> What? "+colorAnswer(saveForLater[1])+"<br> Where? "+colorAnswer(saveForLater[2])+"<br> When? "+colorAnswer(saveForLater[3])+" "+colorAnswer(saveForLater[4])+" at "+colorAnswer(saveForLater[5])+" "+colorAnswer(saveForLater[6]);
 
 
 document.getElementById("answers").innerHTML = ans; 
@@ -25,5 +26,5 @@ document.getElementById("answers").innerHTML = ans;
 
 <p id="answers">Your answers should appear here</p>
 
-<p>(Incorrect answers are shown in <span class="incorrect">red</span>.)<p>
+<p class="Question-instructions-text">Incorrect answers are shown in <span class="incorrect">red</span> with corrections in parentheses.<p>
 
