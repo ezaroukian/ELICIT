@@ -1,29 +1,13 @@
 <script>
-//if value doesn't end in *, color red/incorrect
-
-function colorAnswer(ansArray){
-
-	if(ansArray[3][1]==false){
-		return '<span class="incorrect">'+ansArray[2][1]+'</span>';
-	}
-	else{
-		return '<span class="correct">'+ansArray[2][1]+'</span>';
-	}
-}
-
 function colorAnswerTrain(ansArray){
-
-	console.log(ansArray[3][1]);
 	return '<span class="correct">'+ansArray[2][1]+'</span>';
 }
 
-//var ans = "Who? "+colorAnswer(saveForLater[0])+"<br> What? "+colorAnswer(saveForLater[1])+"<br> Where? "+colorAnswer(saveForLater[2])+"<br> When? "+colorAnswer(saveForLater[3])+" "+colorAnswer(saveForLater[4])+" at "+colorAnswer(saveForLater[5])+colorAnswer(saveForLater[6]);
-
-var ans = "Who? "+colorAnswerTrain(saveForLater[0])+"<br> What? "+colorAnswerTrain(saveForLater[1])+"<br> Where? "+colorAnswerTrain(saveForLater[2])+"<br> When? "+colorAnswerTrain(saveForLater[3])+" "+colorAnswerTrain(saveForLater[4])+" at "+colorAnswerTrain(saveForLater[5])+colorAnswerTrain(saveForLater[6]);
+var ans = "Who? "+colorAnswerTrain(saveForLater[0])+"<br> What? "+colorAnswerTrain(saveForLater[1])+"<br> Where? "+colorAnswerTrain(saveForLater[2])+"<br> When? "+colorAnswerTrain(saveForLater[3])+" "+colorAnswerTrain(saveForLater[4])+" at "+colorAnswerTrain(saveForLater[5])+" "+colorAnswerTrain(saveForLater[6]);
 
 document.getElementById("answers").innerHTML = ans; 
-
 </script>
+
 <p>You selected:</p>
 
 <p id="answers">Your answers should appear here</p>

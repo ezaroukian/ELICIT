@@ -42,12 +42,8 @@ var items = [
 //		transfer: "keypress",
 //		normalMessage: "When ready, press any key to continue to the next scenario"
 //	}],
-	["inst", "Question", {
-			instructions: "Your answer to this question will not affect your eligibility for this experiment.",
-			q: "Do you consider English your first or primary language?",
-			as: ["Yes", "No"],
-			randomOrder: "false",
-			presentHorizontally: "true",
+	["inst", "Form", {
+			html: { include: "questionnaire.html"},
 			countsForProgressBar: "false",
 			hideProgressBar: "false"	
 		}
