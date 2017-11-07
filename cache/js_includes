@@ -867,13 +867,14 @@ jqueryWidget: {
                             return;
                         }
                     }
-
 					
                     rlines.push([["Field name", drop.attr('name')],
                                  ["Field value", drop.attr('value')],
 								 ["Field text", drop.find('option:selected').text()],
 								 ["Field correct text", drop.find("option[value*='*']").text()], 
-								 ["Field correct", drop.attr('value').slice(-1)=="*"]
+								 ["Field correct", drop.attr('value').slice(-1)=="*"],
+								// ["_REACTION_TIME_",  "time"]
+								 ["_REACTION_TIME_",  answerTime - t.creationTime]
 								 ]);
 				}
 				saveForLater=rlines;				
@@ -912,10 +913,10 @@ jqueryWidget: {
                     }
                 }
 
-                if (t.saveReactionTime) {
-                    rlines.push([["Field name", "_REACTION_TIME_"],
-                                 ["Field value", answerTime - t.creationTime]]);
-                }
+                //if (t.saveReactionTime) {
+                //    rlines.push([["Field name", "_REACTION_TIME_"],
+                //                 ["Field value", answerTime - t.creationTime]]);
+                //}
                 t.finishedCallback(rlines);
             }
         }
@@ -946,7 +947,31 @@ jqueryWidget: {
             var t = this;
             this.utils.setTimeout(function () {
                 var answerTime = new Date().getTime();
-                t.finishedCallback([[["Field name","timeout"],["Field value", "timeout"]]]);//handleClick(dom) for rlines?
+				/////From on click
+				rlines = [];
+				var drops = $(dom).find("select");
+                for (var i = 0; i < drops.length; ++i) {
+                    var drop = $(drops[i]);
+					drop.find('option:selected')
+					function checkValue(sel){
+						if(sel.val()==''){
+							return ' &lt;no response&gt;';
+							}
+						else{
+							return sel.text();
+							}
+					}
+                    rlines.push([["Field name", drop.attr('name')],
+                                 ["Field value", drop.attr('value')],
+								 ["Field text", checkValue(drop.find('option:selected'))],
+								 ["Field correct text", drop.find("option[value*='*']").text()], 
+								 ["Field correct", drop.attr('value').slice(-1)=="*"],
+								 ["_REACTION_TIME_", "timed-out"]
+								 ]);								 
+				}
+				saveForLater=rlines;					
+				/////
+                t.finishedCallback(rlines);//handleClick(dom) for rlines?        ///////
             }, this.timeout);
         }
     }

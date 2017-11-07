@@ -29,9 +29,19 @@ var defaults = [
         saveReactionTime: true,
 		continueMessage: "Click here to continue"
     },
+	"FormC", {
+        hideProgressBar: true,
+        continueOnReturn: true,
+        saveReactionTime: true,
+		continueMessage: "Click here to continue"
+    },
 	"MessageForm", {//This doesn't seem to work, I put directly in Form above
 		contMess: "Click here to submit your answer and continue",
 		timeoutForm: 20*60*1000
+	},
+	"MessageFormC", {//This doesn't seem to work, I put directly in Form above
+		contMess: "Click here to submit your answer and continue",
+		timeoutForm: 10000//20*60*1000
 	}
 
 ];
