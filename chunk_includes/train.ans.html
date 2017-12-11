@@ -19,7 +19,7 @@ function updateClock(){
   var t = getTimeRemaining(deadline);
   try{
     if(t.minutes<=0 & t.seconds<=0){clearInterval(intervalId );}
-    else{document.getElementById("clockdiv").innerHTML = "Time remaining: " + t.minutes+":"+('0' + t.seconds).slice(-2);}
+    else{document.getElementById("clockdiv").innerHTML = "<span style='font-weight:bold;'>Time remaining:</span> " + t.minutes+":"+('0' + t.seconds).slice(-2);}
     }
     catch(err){}
 }
@@ -27,12 +27,11 @@ updateClock(); // run function once at first to avoid delay
 var timeinterval = setInterval(updateClock,1000);
 </script>
 
-<div id="clockdiv">Time remaining: -</div> <!-- uses clock.html-->
+<div id="clockdiv"><span style='font-weight:bold;' >Time remaining:</span> -</div> <!-- uses clock.html-->
 
-<br/><br/>
+<br/>
 
-<h1> Terrorist plot: </h1>
-
+<div style="font-weight:bold;" id="clockdiv"> Terrorist plot: </div>
 <label for="who">Who?</label> 
 <select name='who' id="who" class="obligatory" required>
   <option value=''>Select group</option>

@@ -19,7 +19,7 @@ function updateClock(){
   var t = getTimeRemaining(deadline);
 	try{ 
 		if(t.minutes<=0 & t.seconds<=0){clearInterval(intervalId );} 
-		else{document.getElementById("clockdiv").innerHTML = "Time remaining: " + t.minutes+":"+('0' + t.seconds).slice(-2);}
+		else{document.getElementById("clockdiv").innerHTML = "<span style='font-weight:bold;' >Time remaining:</span> " + t.minutes+":"+('0' + t.seconds).slice(-2);}
 		} 
 		catch(err){}
 }

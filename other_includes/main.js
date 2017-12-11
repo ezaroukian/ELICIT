@@ -414,6 +414,7 @@ if (conf_showProgressBar) {
         .addClass("bar-container")
         .css('height', progressBarHeight)
         .css('width', progressBarMaxWidth)
+		.css("margin", "auto")//added to center progress bar
         .append(bar = $(document.createElement("div"))
                 .addClass("bar")
                 .css('height', progressBarHeight)

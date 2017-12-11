@@ -1,6 +1,6 @@
 
 
-var practiceItemTypes = ["practice"];
+//var practiceItemTypes = ["1.ext.train","2.ext.train", "1.orig.train","2.orig.train"];//training_il,training_li
 
 var defaults = [
     "Separator", {
@@ -170,12 +170,7 @@ var items = [
 //	],
 	["toSUS","Message", {html: '<p>You will now be asked a series of questions about the style of document (with/without markup) you just used to answer the who/what/when/where questions.</p><p>In these questions, "the system" refers to the style of document (with/without markup) you used.</p>'}
 	],
-	
-	["end","Message", {
-		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
-		continueMessage: "Click here to send your answers to the server and complete the experiment"
-		}
-	],
+
 	
 	
     ["intro", "Form", {
@@ -192,6 +187,7 @@ var items = [
 //Fit random block/scenario in here
 i = Math.random();
 j = Math.random();
+k = Math.random();
 console.log(i);
 switch(true){
 	case i>=5/6.0:
@@ -262,10 +258,83 @@ if(j<.5)
 	console.log("il");
 else	
 	console.log("li");
+
+
+////do better, which is which? (with value?)
+console.log(k);
+if(k<.5){
+	items=items.concat(	[["end.a", "Form", {
+		html: { include: "TLXa.html"},
+		obligatoryRadioErrorGenerator: function myFunction(f) {
+			switch(f){
+				case("mental"):
+					return "Please respond to the 1st question before continuing.";
+				case("physical"):
+					return "Please respond to the 2nd question before continuing.";
+				case("time"):
+					return "Please respond to the 3rd question before continuing.";
+				case("success"):
+					return "Please respond to the 4th question before continuing.";
+				case("perf"):
+					return "Please respond to the 5th question before continuing.";
+				case("stress"):
+					return "Please respond to the 6th question before continuing.";
+				case("preference"):
+					return "Please respond to the 7th question before continuing.";
+				default:
+					return "Please respond to all questions before continuing.";
+			}
+		},
+		countsForProgressBar: true,
+		hideProgressBar: false		
+	}],
+	["end.a","Message", {
+		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
+		continueMessage: "Click here to send your answers to the server and complete the experiment"
+		}
+	]]);
+	shuffleSequence = seq(shuffleSequence, "end.a");
+}
+else{
+	items = items.concat(	[["end.b", "Form", {
+		html: { include: "TLXb.html"},
+		obligatoryRadioErrorGenerator: function myFunction(f) {
+			switch(f){
+				case("mental"):
+					return "Please respond to the 1st question before continuing.";
+				case("physical"):
+					return "Please respond to the 2nd question before continuing.";
+				case("time"):
+					return "Please respond to the 3rd question before continuing.";
+				case("success"):
+					return "Please respond to the 4th question before continuing.";
+				case("perf"):
+					return "Please respond to the 5th question before continuing.";
+				case("stress"):
+					return "Please respond to the 6th question before continuing.";
+				case("preference"):
+					return "Please respond to the 7th question before continuing.";
+				default:
+					return "Please respond to all questions before continuing.";
+			}
+		},
+		countsForProgressBar: true,
+		hideProgressBar: false		
+	}],
+	["end.b","Message", {
+		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
+		continueMessage: "Click here to send your answers to the server and complete the experiment"
+		}
+	]])
+	shuffleSequence = seq(shuffleSequence, "end.b");
+}
 	
+//testing
+//shuffleSequence=seq("end");
+
 
 //alert(items);
-items = items.concat(SUSItems);
+//items = items.concat(SUSItems);
 
 //items = [['1.ext.train', 'MessageFormC', {'hideProgressBar': 'true', 'html': {'include': 'train.ext.html'}, 'answers': {'include': 'train.ans.html'}, 'countsForProgressBar': 'false'}], ["train-after", "Message", { 'html': {'include': 'train.confirm.html'}} ]]
 
