@@ -24,6 +24,7 @@ define_ibex_controller({
     properties: {
 	    obligatory: ["html"],
 		countsForProgressBar: true,
+		hideProgressBar: false,
 		htmlDescription: function (opts) {
 			return truncateHTML(htmlCodeToDOM(opts.html), 100);
 		}

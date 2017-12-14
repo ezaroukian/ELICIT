@@ -11,14 +11,16 @@ plain = "orig"
 #Build up training items
 nums_il = ["1."]*4+["2."]*4 #['1.', '1.', '1.', ... '2.', '2.', '2.' ...] Used to assign blocks
 nums_li = nums_il[::-1]
-trains =[[pipeline+".train", "Message", {"html": "<p>On the next screen you will see a practice scenario of four sentences <b>with markup</b>.</p><p>These sentences will NOT contain sufficient information to determine the who/what/when/where of the terrorist plot, but go ahead and make your best guess so that you can practice entering and submitting you answer.</p><p>Again, this is only a practice scenario. Feel free to take as much time as you need.</p> ","hideProgressBar": "true", "countsForProgressBar": "false"}],
-	 [pipeline+".train", "MessageFormC", {"html": {"include": "train.ext.html"},"answers": { "include": "train.ans.html"},"hideProgressBar": "true","countsForProgressBar": "false"}],
+trains =[[pipeline+".train", "Message", {"html": "<p>On the next screen you will see a practice scenario of four sentences <b>with markup</b>.</p><p>These sentences will NOT contain sufficient information to determine the who/what/when/where of the terrorist plot, but go ahead and make your best guess so that you can practice entering and submitting you answer.</p><p>Again, this is only a practice scenario. Feel free to take as much time as you need.</p> "}],
+	 [pipeline+".train", "MessageFormC", {"html": {"include": "train.ext.html"},"answers": { "include": "train.ans.html"}}],
          [pipeline+".train", "Message", {"html": {"include": "train.confirm.html"}}],
-	 [pipeline+".train", "Message", {"html": "<p>You have completed the training scenario. The experiment will now begin, and you will be shown two full scenarios with markup.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>","hideProgressBar": "true","countsForProgressBar": "false"}],
+	 #[pipeline+".train", "Message", {"html": "<p>You have completed the training scenario. The experiment will now begin, and you will be shown two full scenarios with markup.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>",}],
+         [pipeline+".train", "Message", {"html": "<p>You have completed the training scenario. The experiment will now begin, and you will be shown a full scenario <b>with markup</b>.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>",}],
          [plain+".train", "Message", {"html": "<p>On the next screen you will see a practice scenario of four sentences <b>without markup</b>.</p><p>These sentences will NOT contain sufficient information to determine the who/what/when/where of the terrorist plot, but go ahead and make your best guess so that you can practice entering and submitting you answer.</p><p>Again, this is only a practice scenario. Feel free to take as much time as you need.</p> "}],
-	 [plain+".train", "MessageFormC", { "html": {"include": "train.orig.html"}, "answers": { "include": "train.ans.html"}, "hideProgressBar": "true", "countsForProgressBar": "false"}],
+	 [plain+".train", "MessageFormC", { "html": {"include": "train.orig.html"}, "answers": { "include": "train.ans.html"}}],
          [plain+".train", "Message", {"html": {"include": "train.confirm.html"}}],
-	 [plain+".train", "Message", {"html": "<p>You have completed the training scenario. The experiment will now begin, and you will be shown two full scenarios without markup.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>","hideProgressBar": "true","countsForProgressBar": "false"}],
+	 #[plain+".train", "Message", {"html": "<p>You have completed the training scenario. The experiment will now begin, and you will be shown two full scenarios without markup.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>"}],
+         [plain+".train", "Message", {"html": "<p>You have completed the training scenario. The experiment will now begin, and you will be shown a full scenario <b>without markup</b>.</p><p>Remember to work as quickly as you can without sacrificing accuracy.</p>"}],
         ]
 #Make copies of the training items, append blocks to names and build up names list (pipeline>plain, plain>pipeline)
 trains_il = copy.deepcopy(trains)
@@ -63,7 +65,6 @@ def writeItems():
                   ]
         return sorted(items)#Arrange pipeline > plain for later appending block numbers
                
-
 
 nums_il=["1.","1.","2.","2."]
 nums_li=["2.","2.","1.","1."]
@@ -175,7 +176,7 @@ for i in range(0,len(items6)):
         names6_il.append(items6_il[i][0])
         names6_li.append(items6_li[i][0])                                 
 
-
+#Build up SUS items
 with open('SUS.csv', 'r') as csvfile:#with open('SUS.csv', 'rb') as csvfile:
         #counter = 1
         sus = []
@@ -229,7 +230,7 @@ with open('genItems.js', 'w') as writefile:
         writefile.write("var comments_il = "+str(comms_il)+";\n\n\n")
         writefile.write("var comments_li = "+str(comms_li)+";\n\n\n")
 
-
+#SUS version
 ##        writefile.write("var ss1_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_il[0:2])+"')), 'toSUS', '" + "', '".join(susNames1i)+"', '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_il[2:4])+"')), 'toSUS', '"+"', '".join(susNames2l)+"', '"+cnames_il[1]+"', 'end');\n\n")
 ##        writefile.write("var ss1_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_li[2:4])+"')), 'toSUS', '" + "', '".join(susNames1l)+"', '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_li[0:2])+"')), 'toSUS', '"+"', '".join(susNames2i)+"', '"+cnames_li[0]+"', 'end');\n\n")  
 ##
@@ -248,25 +249,46 @@ with open('genItems.js', 'w') as writefile:
 ##        writefile.write("var ss6_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_il[0:2])+"')), 'toSUS', '" + "', '".join(susNames1i)+"', '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_il[2:4])+"')), 'toSUS', '"+"', '".join(susNames2l)+"', '"+cnames_il[1]+"', 'end');\n\n")
 ##        writefile.write("var ss6_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_li[2:4])+"')), 'toSUS', '" + "', '".join(susNames1l)+"', '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_li[0:2])+"')), 'toSUS', '"+"', '".join(susNames2i)+"', '"+cnames_li[0]+"', 'end');\n\n")
 
-        writefile.write("var ss1_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
-        writefile.write("var ss1_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+#NASA-TLX version
+##        writefile.write("var ss1_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+##        writefile.write("var ss1_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names1_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+##
+##        writefile.write("var ss2_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+##        writefile.write("var ss2_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
+##
+##        writefile.write("var ss3_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+##        writefile.write("var ss3_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+##
+##        writefile.write("var ss4_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+##        writefile.write("var ss4_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
+##
+##        writefile.write("var ss5_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+##        writefile.write("var ss5_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+##
+##        writefile.write("var ss6_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+##        writefile.write("var ss6_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
 
-        writefile.write("var ss2_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
-        writefile.write("var ss2_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names2_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
 
-        writefile.write("var ss3_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
-        writefile.write("var ss3_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names3_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+#only one trial per block, probably has some redundancies (oneOf() added to shuffle.js)
 
-        writefile.write("var ss4_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
-        writefile.write("var ss4_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names4_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
+        writefile.write("var ss1_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names1_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names1_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+        writefile.write("var ss1_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names1_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names1_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
 
-        writefile.write("var ss5_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
-        writefile.write("var ss5_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names5_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+        writefile.write("var ss2_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names2_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names2_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+        writefile.write("var ss2_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names2_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names2_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
 
-        writefile.write("var ss6_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
-        writefile.write("var ss6_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',shuffle('"+"', '".join(names6_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
+        writefile.write("var ss3_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names3_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names3_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+        writefile.write("var ss3_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names3_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names3_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
 
-  
+        writefile.write("var ss4_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names4_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names4_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+        writefile.write("var ss4_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names4_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names4_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
+
+        writefile.write("var ss5_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names5_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names5_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+        writefile.write("var ss5_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names5_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names5_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")  
+
+        writefile.write("var ss6_il = seq('inst', '"+tnames_il[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names6_il[0:2])+"')), '"+cnames_il[0]+"', 'middle', '"+tnames_il[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names6_il[2:4])+"')), '"+cnames_il[1]+"', 'end');\n\n")
+        writefile.write("var ss6_li = seq('inst', '"+tnames_li[1]+"', followEachWith('test-after',oneOf('"+"', '".join(names6_li[2:4])+"')), '"+cnames_li[1]+"', 'middle', '"+tnames_li[0]+"', followEachWith('test-after',oneOf('"+"', '".join(names6_li[0:2])+"')), '"+cnames_li[0]+"', 'end');\n\n")
+
 
         writefile.close()
 

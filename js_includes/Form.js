@@ -194,7 +194,8 @@ jqueryWidget: {
 
 properties: {
     obligatory: ["html"],
-    countsForProgressBar: false,
+    countsForProgressBar: true,
+	hideProgressBar: false,
     htmlDescription: function (opts) {
         return htmlCodeToDOM(opts.html);
     }

@@ -93,7 +93,8 @@ jqueryWidget: {
 
 properties: {
     obligatory: ["html"],
-    countsForProgressBar: false,
+	hideProgressBar: false,
+    countsForProgressBar: true,
     htmlDescription: function (opts) {
         return truncateHTML(htmlCodeToDOM(opts.html), 100);
     }

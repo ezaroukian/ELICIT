@@ -1,0 +1,194 @@
+---
+title: "ELICIT pipeline"
+author: "Erin Zaroukian"
+date: "December 12, 2017"
+output: html_document
+---
+  
+##Generate an R-readable csv file with formatResults.py in the analysis folder.
+
+```{r echo=FALSE, message=FALSE}
+if (!require("pacman")) install.packages("pacman")  
+pacman::p_load(ggplot2,lme4,Rmisc,data.table,RColorBrewer,tidyr,dplyr, lmerTest)#with lmerTest, summary() will give p values, but it ruins AIC tables
+#AICcmodavg
+#a couple functions
+
+#for plotting SE instead of SD
+se <-function(sample){
+  return(sd(sample)/sqrt(length(sample)))
+}
+#for plotting side-by-side (from the internet)
+multiplot <- function(..., plotlist=NULL, cols) {
+  require(grid)
+  
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+  
+  numPlots = length(plots)
+  
+  # Make the panel
+  plotCols = cols                       # Number of columns of plots
+  plotRows = ceiling(numPlots/plotCols) # Number of rows needed, calculated from # of cols
+  
+  # Set up the page
+  grid.newpage()
+  pushViewport(viewport(layout = grid.layout(plotRows, plotCols)))
+  vplayout <- function(x, y)
+    viewport(layout.pos.row = x, layout.pos.col = y)
+  
+  # Make each plot, in the correct location
+  for (i in 1:numPlots) {
+    curRow = ceiling(i/plotCols)
+    curCol = (i-1) %% plotCols + 1
+    print(plots[[i]], vp = vplayout(curRow, curCol ))
+  }
+  
+}
+
+
+setwd("M:/IBEX-experiments/ELICIT/analysis")
+data <- read.csv("results-formatted.csv")
+```
+
+##Get the dataframe ready
+
+```{r echo=FALSE, message=FALSE}
+data <- as.data.frame(data)
+
+dataTest <- data[data$qType=="test",]
+dt <- data.table(dataTest)
+
+dt$whoCorrect = as.logical(dt$whoCorrect)
+dt$whatCorrect = as.logical(dt$whatCorrect)
+dt$whereCorrect = as.logical(dt$whereCorrect)
+dt$monthCorrect = as.logical(dt$monthCorrect)
+dt$dayCorrect = as.logical(dt$dayCorrect)
+dt$timeCorrect = as.logical(dt$timeCorrect)
+dt$ampmCorrect = as.logical(dt$ampmCorrect)
+
+workerCondTable <- dt[,list(whoCorrect=mean(whoCorrect),seWhoCorrect=se(whoCorrect),whatCorrect=mean(whatCorrect),seWhatCorrect=se(whatCorrect), whereCorrect=mean(whereCorrect),seWhereCorrect=se(whereCorrect), monthCorrect=mean(monthCorrect),seMonthCorrect=se(monthCorrect), dayCorrect=mean(dayCorrect),seDayCorrect=se(dayCorrect), timeCorrect=mean(timeCorrect),seTimeCorrect=se(timeCorrect), ampmCorrect=mean(ampmCorrect),seAmpmCorrect=se(ampmCorrect), responseTime=mean(responseTime),seResponseTime=se(responseTime)),by='worker,cond']
+
+condTable <- dt[,list(whoCorrect=mean(whoCorrect),seWhoCorrect=se(whoCorrect),whatCorrect=mean(whatCorrect),seWhatCorrect=se(whatCorrect), whereCorrect=mean(whereCorrect),seWhereCorrect=se(whereCorrect), monthCorrect=mean(monthCorrect),seMonthCorrect=se(monthCorrect), dayCorrect=mean(dayCorrect),seDayCorrect=se(dayCorrect), timeCorrect=mean(timeCorrect),seTimeCorrect=se(timeCorrect), ampmCorrect=mean(ampmCorrect),seAmpmCorrect=se(ampmCorrect), responseTime=mean(responseTime),seResponseTime=se(responseTime)),by='cond']
+
+#Who - 1/7
+#What - 1/5
+#Where - 1/5
+#When
+# Month - 1/12
+# Day - 1/31
+# Hour - 1/12
+# AMPM - 1/2
+
+
+ggplot(data=condTable, aes(x=worker, y = responseTime)) + 
+  geom_bar(stat="identity") +
+  labs(title = "Mean ...",y="mean accuracy") + theme(legend.position="none")
+
+```
+
+
+```{r}
+dtg = gather(dt, q, correct, c(whoCorrect,whatCorrect,whereCorrect,monthCorrect,dayCorrect,timeCorrect,ampmCorrect), factor_key=TRUE)
+
+dtg$correct = as.logical(dtg$correct)
+
+ggplot(dtg, aes(x=q, y=as.numeric(correct))) +
+  geom_bar(stat = "summary", fun.y = "mean") +
+  geom_bar(data=data.frame(q=c("whoCorrect","whatCorrect","whereCorrect","monthCorrect","dayCorrect","timeCorrect","ampmCorrect"), correct=c(1/7,1/5,1/5,1/12,1/31,1/12,1/2)), aes(x=q, y=correct), fill="blue", stat="identity", position="dodge")
+
+
+dtgg = gather(cbind(select(dtg,worker,block,scenario,cond,q,correct),random=c(1/7,1/5,1/5,1/12,1/31,1/12,1/2)), q, correct, c(correct,random), factor_key=TRUE)
+
+
+
+ggplot(data=rbind(cbind(select(dtg,q,correct), rand=rep("real",nrow(dtg))), data.table(q=c("whoCorrect","whatCorrect","whereCorrect","monthCorrect","dayCorrect","timeCorrect","ampmCorrect"),correct=c(1/7,1/5,1/5,1/12,1/31,1/12,1/2), rand=rep("rand",7))), aes(x=q, y=correct,fill=rand)) +
+  geom_bar(stat="summary", fun.y="mean", position="dodge")
+
+
+```
+
+
+#More cleaning
+```{r}
+#markup, question, scenario, worker
+#dt1 = select(dt,worker,block,scenario,cond,q,correct)
+
+dt1 = gather(dt, q, correct, c(whoCorrect,whatCorrect,whereCorrect,monthCorrect,dayCorrect,timeCorrect,ampmCorrect), factor_key=TRUE)
+
+dt2=select(dt1,worker,block,scenario,cond,q,correct,responseTime)
+
+dt2$correct = as.logical(dt2$correct)
+
+#remove "correct"
+dt2$q = sapply(dt2$q, function(x){substr(x, 1, nchar(as.character(x))-7)})
+
+```
+
+#Stats
+```{r}
+#contrasts
+mat = matrix(c(1/4, 1/4, 1/4, 1/4,  1,-1, 0, 0,  0, 0, 1, -1,  -1/2, -1/2, 1/2, 1/2), ncol = 4)
+#I have no idea what the first column of the matrix is, I just copied the example. Intercept?
+mymat = solve(t(mat))
+my.contrasts<-mymat[,2:4]
+dt$complexType=factor(dt$complexType,levels=c("ident","rel","and","neg"))#make sure they're in order
+contrasts(dt$complexType) = my.contrasts
+
+
+#plain/pipeline (default)
+
+#question
+dt2$q = factor(dt2$q)
+contrasts(dt2$q) = matrix(c(6/7,  -1/7, -1/7, -1/7, -1/7, -1/7, -1/7,
+                            -1/7, 6/7,  -1/7, -1/7, -1/7, -1/7, -1/7,
+                            -1/7, -1/7, 6/7,  -1/7, -1/7, -1/7, -1/7,
+                            -1/7, -1/7, -1/7,  6/7, -1/7, -1/7, -1/7,
+                            -1/7, -1/7, -1/7, -1/7,  6/7, -1/7, -1/7,
+                            -1/7, -1/7, -1/7, -1/7, -1/7,  6/7, -1/7,
+                            -1/7, -1/7, -1/7, -1/7, -1/7, -1/7,  6/7), ncol=7)
+
+contrasts(dt2$q, 21) = matrix(c(1/2, -1/2,    0,    0,    0,    0,    0,
+                            1/2,    0, -1/2,    0,    0,    0,    0,
+                            1/2,    0,    0, -1/2,    0,    0,    0,
+                            1/2,    0,    0,    0, -1/2,    0,    0,
+                            1/2,    0,    0,    0,    0, -1/2,    0,
+                            1/2,    0,    0,    0,    0,    0, -1/2,
+                              0,  1/2, -1/2,    0,    0,    0,    0,
+                              0,  1/2,    0, -1/2,    0,    0,    0,
+                              0,  1/2,    0,    0, -1/2,    0,    0,
+                              0,  1/2,    0,    0,    0, -1/2,    0,
+                              0,  1/2,    0,    0,    0,    0, -1/2,
+                              0,    0,  1/2, -1/2,    0,    0,    0,
+                              0,    0,  1/2,    0, -1/2,    0,    0,
+                              0,    0,  1/2,    0,    0, -1/2,    0,
+                              0,    0,  1/2,    0,    0,    0, -1/2,
+                              0,    0,    0,  1/2, -1/2,    0,    0,
+                              0,    0,    0,  1/2,    0, -1/2,    0,
+                              0,    0,    0,  1/2,    0,    0, -1/2,
+                              0,    0,    0,    0,  1/2, -1/2,    0,
+                              0,    0,    0,    0,  1/2,    0, -1/2,
+                              0,    0,    0,    0,    0,  1/2, -1/2), ncol=7*6/2)
+
+
+
+#drop "train" scenario in format results
+dt2$scenario = factor(as.character(dt2$scenario))
+contrasts(dt2$scenario) = matrix(c(3/4, -1/4, -1/4, -1/4,
+                                   -1/4, 3/4, -1/4, -1/4,
+                                   -1/4, -1/4, 3/4, -1/4,
+                                   -1/4, -1/4, -1/4, 3/4), ncol=4)
+
+
+contrasts(dt2$scenario, 6) = matrix(c(.5, -.5,   0,   0,
+                                   .5,   0, -.5,   0,
+                                   .5,   0,   0, -.5,
+                                    0,  .5, -.5,   0,
+                                    0,  .5,   0, -.5,
+                                    0,   0, -.5, -.5), ncol=4*3/2)
+
+
+glmer(correct ~ cond + q + scenario + (1|worker) , data=dt2) #family?
+
+model.matrix(lmer(responseTime ~ scenario + (1|worker) , data=dt2))
+```
+

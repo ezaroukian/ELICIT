@@ -1,85 +1,192 @@
-worker,age,gender,natLang,block,qType,cond,scenario,who,whoCorrect,what,whatCorrect,where,whereCorrect,month,monthCorrect,day,dayCorrect,time,timeCorrect,ampm,ampmCorrect,responseTime,comments,SUS
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,training,orig,train,Cube,,airport,,Bonoboland,,January,,2,,2:00,,AM,,10613,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,test,orig,Scenario1,Brown,False,embassy,False,Omegaland,False,March,False,3,False,2:00,False,AM,True,9260,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,test,orig,Scenario8,Charger,True,outdoor-mall,False,Perchland,False,March,False,2,False,3:00,False,AM,True,9511,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I think that I would use this system frequently.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I found the system unnecessarily complex.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I thought the system was easy to use.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I think that I would need the support of a technical person to be able to use this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I found the various functions in this system were well integrated.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I thought there was too much inconsistency in this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I would imagine that most people would learn to use this system very quickly.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I found the system very cumbersome to use.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I felt very confident using the system.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,9511,,I needed to learn a lot of things before I could get going with this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,1,comments,orig,comments,,,,,,,,,,,,,,,3909,1111111,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,training,ext,train,Cube,,military-base,,Gibbonland,,March,,17,,2:00,,AM,,12653,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,test,ext,Scenario7,Hexagon,False,hospital,False,Spiderland,False,February,False,3,False,2:00,False,PM,True,11160,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,test,ext,Scenario4,Teal,False,courthouse,False,Omicronland,True,March,False,4,False,3:00,False,AM,True,10193,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I think that I would use this system frequently.,p,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I found the system unnecessarily complex.,n,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I thought the system was easy to use.,p,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I think that I would need the support of a technical person to be able to use this system.,n,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I found the various functions in this system were well integrated.,p,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I thought there was too much inconsistency in this system.,n,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I would imagine that most people would learn to use this system very quickly.,p,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I found the system very cumbersome to use.,n,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I felt very confident using the system.,p,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,10193,,I needed to learn a lot of things before I could get going with this system.,n,3
-cf03c7c3d4b26329829201d9c08cdbc1--1508431495,,,,2,comments,ext,comments,,,,,,,,,,,,,,,5413,asdfgtyhujkl;sdfghjk,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,training,ext,train,Cube,,outdoor-mall,,Gibbonland,,March,,14,,2:00,,AM,,11578,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,test,ext,Scenario8,Charger,True,indoor-mall,True,Salmonland,True,December,True,15,True,10:00,True,AM,True,43439,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,test,ext,Scenario7,Triangle,True,cruise-terminal,True,Tickland,True,September,True,1,True,10:00,True,PM,True,30571,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I think that I would use this system frequently.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I found the system unnecessarily complex.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I thought the system was easy to use.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I think that I would need the support of a technical person to be able to use this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I found the various functions in this system were well integrated.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I thought there was too much inconsistency in this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I would imagine that most people would learn to use this system very quickly.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I found the system very cumbersome to use.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I felt very confident using the system.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,SUS,ext,SUS,,,,,,,,,,,,,,,30571,,I needed to learn a lot of things before I could get going with this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,1,comments,ext,comments,,,,,,,,,,,,,,,2909,12345,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,training,orig,train,Sphere,,military-base,,Gibbonland,,June,,19,,2:00,,AM,,10626,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,test,orig,Scenario4,Silver,True,secular-school,True,Omicronland,True,January,True,1,True,9:00,True,AM,True,37879,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,test,orig,Scenario1,Violet,True,financial-institution,True,Psiland,True,April,True,5,True,11:00,True,AM,True,30613,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I think that I would use this system frequently.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I found the system unnecessarily complex.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I thought the system was easy to use.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I think that I would need the support of a technical person to be able to use this system.,n,4
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I found the various functions in this system were well integrated.,p,2
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I thought there was too much inconsistency in this system.,n,4
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I would imagine that most people would learn to use this system very quickly.,p,2
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I found the system very cumbersome to use.,n,4
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I felt very confident using the system.,p,2
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,SUS,orig,SUS,,,,,,,,,,,,,,,30613,,I needed to learn a lot of things before I could get going with this system.,n,4
-cf03c7c3d4b26329829201d9c08cdbc1--1508437358,,,,2,comments,orig,comments,,,,,,,,,,,,,,,5626,asd asd asd asd ,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,training,orig,train,Cube,,military-base,,Bonoboland,,March,,4,,4:00,,PM,,10767,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,test,orig,Scenario1,Azure,False,port,False,Tauland,False,October,False,6,False,7:00,False,PM,False,17557,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,test,orig,Scenario4,Teal,False,religious-school,False,Muland,False,November,False,14,False,9:00,True,PM,False,18264,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I think that I would use this system frequently.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I found the system unnecessarily complex.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I thought the system was easy to use.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I think that I would need the support of a technical person to be able to use this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I found the various functions in this system were well integrated.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I thought there was too much inconsistency in this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I would imagine that most people would learn to use this system very quickly.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I found the system very cumbersome to use.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I felt very confident using the system.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,SUS,orig,SUS,,,,,,,,,,,,,,,18264,,I needed to learn a lot of things before I could get going with this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,1,comments,orig,comments,,,,,,,,,,,,,,,4061,11111,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,training,ext,train,Cube,,outdoor-mall,,Gibbonland,,February,,19,,1:00,,AM,,11140,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,test,ext,Scenario8,Steeler,False,stock-market,False,Salmonland,True,August,False,14,False,7:00,False,AM,True,11919,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,test,ext,Scenario7,Circle,False,museum,False,Hornetland,False,November,False,3,False,3:00,False,PM,True,14162,,,,
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I think that I would use this system frequently.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I found the system unnecessarily complex.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I thought the system was easy to use.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I think that I would need the support of a technical person to be able to use this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I found the various functions in this system were well integrated.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I thought there was too much inconsistency in this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I would imagine that most people would learn to use this system very quickly.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I found the system very cumbersome to use.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I felt very confident using the system.,p,1
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,SUS,ext,SUS,,,,,,,,,,,,,,,14162,,I needed to learn a lot of things before I could get going with this system.,n,5
-cf03c7c3d4b26329829201d9c08cdbc1--1508438768,,,,2,comments,ext,comments,,,,,,,,,,,,,,,3147,qweqwe,,,
+worker,language,age,gender,education,block,qType,cond,scenario,who,whoCorrect,what,whatCorrect,where,whereCorrect,month,monthCorrect,day,dayCorrect,time,timeCorrect,ampm,ampmCorrect,responseTime,comments,SUS,polarity,response,mental,physical,temp,success,perf,stress,preference
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,1,training,ext,train,Sphere,,airport*,,Bonoboland*,,January*,,1*,,6:00,,AM*,,7041,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,1,test,ext,Scenario1,Chartreuse,False,dignitary-visiting,False,Chiland,False,January,False,1,False,1:00,False,PM,False,6446,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,1,test,ext,Scenario4,Turquoise,False,secular-school*,True,Piland,False,June,False,15,False,4:00,False,PM,False,11175,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,1,comments,ext,comments,,,,,,,,,,,,,,,4729,test 1,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,2,training,orig,train,Tetrahedron,,airport*,,Gibbonland,,January*,,1*,,4:00,,PM,,8961,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,2,test,orig,Scenario7,Rectangle,False,museum,False,Cricketland,False,September*,True,16,False,9:00,False,PM*,True,10414,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,2,test,orig,Scenario8,Raider,False,indoor-mall*,True,Salmonland*,True,July,False,17,False,6:00,False,AM*,True,10363,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,2,comments,orig,comments,,,,,,,,,,,,,,,3963,test 1,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513023890,No,50-64,Male,Ed1,NA,questionnaire,a,NA,,,,,,,,,,,,,,,11852,,,,,1,2,3,4,5,6,7
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,1,training,ext,train,Cube*,,military-base,,Gibbonland,,February,,15,,4:00,,PM,,10078,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,1,test,ext,Scenario1,Brown,False,embassy,False,Omegaland,False,November,False,17,False,12:00,False,AM*,True,12278,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,1,test,ext,Scenario4,Rose,False,military-base,False,Muland,False,November,False,9,False,11:00,False,AM*,True,13175,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,1,comments,ext,comments,,,,,,,,,,,,,,,7254,comments testing 1,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,2,training,orig,train,Cube*,,outdoor-mall,,Gibbonland,,January*,,4,,8:00,,PM,,9714,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,2,test,orig,Scenario8,Titan,False,indoor-mall*,True,Salmonland*,True,July,False,4,False,11:00,False,AM*,True,14299,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,2,test,orig,Scenario7,Circle,False,hospital,False,Cricketland,False,December,False,11,False,7:00,False,AM,False,12100,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,2,comments,orig,comments,,,,,,,,,,,,,,,18413,testing comments 2%0A,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513084510,Yes,18-29,Female,Ed1,NA,questionnaire,a,NA,,,,,,,,,,,,,,,18966,,,,,11,11,11,6,6,6,8
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,1,training,ext,train,Sphere,,airport*,,Gibbonland,,January*,,15,,3:00,,PM,,9853,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,1,test,ext,Scenario8,Steeler,False,military-base,False,Perchland,False,November,False,15*,True,9:00,False,AM*,True,10154,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,1,test,ext,Scenario1,Chartreuse,False,train,False,Psiland*,True,November,False,17,False,10:00,False,PM,False,10048,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,1,comments,ext,comments,,,,,,,,,,,,,,,13119,long comments%2C testing commas.,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,2,training,orig,train,Cube*,,military-base,,Gibbonland,,April,,5,,4:00,,AM*,,28312,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,2,test,orig,Scenario4,Teal,False,religious-school,False,Piland,False,October,False,27,False,9:00*,True,AM*,True,10221,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,2,test,orig,Scenario7,Hexagon,False,hospital,False,Tickland*,True,December,False,17,False,6:00,False,AM,False,11533,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,2,comments,orig,comments,,,,,,,,,,,,,,,27921,longer comment,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513086527,No,50-64,Other/prefer not to say ,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,10593,,,,,6,6,6,6,6,6,6
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,1,training,ext,train,Sphere,,military-base,,Gibbonland,,September,,16,,9:00,,AM*,,12566,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,1,test,ext,Scenario8,Bronco,False,military-base,False,Salmonland*,True,December*,True,18,False,12:00,False,AM*,True,13781,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,1,test,ext,Scenario1,Coral,False,embassy,False,Upsilonland,False,December,False,14,False,10:00,False,AM*,True,10876,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,1,comments,ext,comments,,,,,,,,,,,,,,,8462,gfdfgfdfgfdfg,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,2,training,orig,train,Sphere,,military-base,,Bonoboland*,,May,,5,,4:00,,AM*,,10751,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,2,test,orig,Scenario4,Sienna,False,financial,False,Sigmaland,False,December,False,13,False,6:00,False,AM*,True,11170,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,2,test,orig,Scenario7,Oval,False,museum,False,Flyland,False,November,False,15,False,7:00,False,AM,False,10916,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,2,comments,orig,comments,,,,,,,,,,,,,,,6585,sdf %2Cdfg %2Cr r rty rty ,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513087756,No,50-64,Female,Ed3,NA,questionnaire,a,NA,,,,,,,,,,,,,,,8802,,,,,5,6,7,8,9,10,11
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,1,training,ext,train,Tetrahedron,,military-base,,Gibbonland,,July,,17,,4:00,,AM*,,14344,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,1,test,ext,Scenario4,Sienna,False,religious-school,False,Sigmaland,False,October,False,17,False,10:00,False,PM,False,12350,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,1,test,ext,Scenario1,Chartreuse,False,embassy,False,Omegaland,False,September,False,15,False,11:00*,True,AM*,True,12094,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,1,comments,ext,comments,,,,,,,,,,,,,,,59352,no progress bar,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,2,training,orig,train,Cube*,,military-base,,Lemurland,,March,,12,,5:00,,AM*,,10478,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,2,test,orig,Scenario8,Panther,False,indoor-mall*,True,Sharkland,False,December*,True,15*,True,4:00,False,AM*,True,11863,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,2,test,orig,Scenario7,Octagon,False,museum,False,Spiderland,False,November,False,14,False,4:00,False,AM,False,13647,,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,2,comments,orig,comments,,,,,,,,,,,,,,,6080,nnn,,,,,,,,,,
+55fe0d2fb95bb212403942cf8c7be90b--1513088539,Yes,65+,Female,Ed3,NA,questionnaire,a,NA,,,,,,,,,,,,,,,12245,,,,,18,17,16,15,14,13,12
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,1,training,orig,train,Tetrahedron,,airport*,,Bonoboland*,,May,,11,,2:00,,PM,,10358,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,1,test,orig,Scenario4,Teal,False,military-base,False,Piland,False,September,False,17,False,10:00,False,AM*,True,10514,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,1,test,orig,Scenario7,Octagon,False,museum,False,Cricketland,False,October,False,18,False,11:00,False,AM,False,11750,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,1,comments,orig,comments,,,,,,,,,,,,,,,10517,I see progress!,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,2,training,ext,train,Cube*,,military-base,,Gibbonland,,March,,4,,7:00,,AM*,,9104,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,2,test,ext,Scenario1,Coral,False,financial-institution*,True,Psiland*,True,October,False,17,False,6:00,False,AM*,True,12783,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,2,test,ext,Scenario8,Steeler,False,stock-market,False,Perchland,False,November,False,10,False,9:00,False,PM,False,10732,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,2,comments,ext,comments,,,,,,,,,,,,,,,3758,tyytyrs,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513090577,No,50-64,Female,Ed3,NA,questionnaire,a,NA,,,,,,,,,,,,,,,10928,,,,,8,9,10,11,12,13,14
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,1,training,orig,train,Tetrahedron,,airport*,,Lemurland,,August,,4,,8:00,,AM*,,10452,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,1,test,orig,Scenario8,Raven,False,outdoor-mall,False,Salmonland*,True,May,False,15*,True,6:00,False,AM*,True,11311,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,1,comments,orig,comments,,,,,,,,,,,,,,,2795,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,2,training,ext,train,Tetrahedron,,outdoor-mall,,Bonoboland*,,June,,8,,11:00,,AM*,,16997,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,2,test,ext,Scenario4,Turquoise,False,religious-school,False,Piland,False,August,False,6,False,10:00,False,PM,False,12374,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,2,comments,ext,comments,,,,,,,,,,,,,,,1054,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263090,No,30-49,Male,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,9123,,,,,15,14,13,12,11,10,9
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,1,training,ext,train,Cube*,,military-base,,Bonoboland*,,May,,10,,5:00,,AM*,,11638,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,1,test,ext,Scenario7,Oval,False,museum,False,Tickland*,True,April,False,3,False,5:00,False,AM,False,11743,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,1,comments,ext,comments,,,,,,,,,,,,,,,1192,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,2,training,orig,train,Tetrahedron,,outdoor-mall,,Bonoboland*,,June,,8,,8:00,,PM,,10418,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,2,test,orig,Scenario1,Coral,False,embassy,False,Psiland*,True,June,False,10,False,5:00,False,PM,False,12202,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,2,comments,orig,comments,,,,,,,,,,,,,,,2164,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263432,No,30-49,Male,Ed3,NA,questionnaire,b,NA,,,,,,,,,,,,,,,17286,,,,,8,7,6,5,4,3,2
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,1,training,ext,train,Tetrahedron,,military-base,,Gibbonland,,June,,13,,5:00,,AM*,,11765,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,1,test,ext,Scenario4,Teal,False,secular-school*,True,Muland,False,May,False,6,False,4:00,False,AM*,True,9068,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,1,comments,ext,comments,,,,,,,,,,,,,,,874,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,2,training,orig,train,Tetrahedron,,military-base,,Gibbonland,,March,,9,,6:00,,PM,,8696,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,2,test,orig,Scenario8,Steeler,False,train-station,False,Salmonland*,True,May,False,2,False,7:00,False,PM,False,8685,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,2,comments,orig,comments,,,,,,,,,,,,,,,1180,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263581,Yes,30-49,Male,Ed3,NA,questionnaire,a,NA,,,,,,,,,,,,,,,8278,,,,,11,12,13,14,15,16,17
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,1,training,orig,train,Sphere,,military-base,,Gibbonland,,May,,2,,5:00,,AM*,,8472,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,1,test,orig,Scenario1,Coral,False,train,False,Chiland,False,September,False,9,False,2:00,False,PM,False,10858,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,1,comments,orig,comments,,,,,,,,,,,,,,,1113,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,2,training,ext,train,Sphere,,military-base,,Gibbonland,,July,,8,,7:00,,PM,,9285,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,2,test,ext,Scenario7,Octagon,False,cruise-terminal*,True,Tickland*,True,July,False,7,False,8:00,False,PM*,True,10162,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,2,comments,ext,comments,,,,,,,,,,,,,,,918,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513263663,Yes,30-49,Female,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,6238,,,,,17,16,15,14,13,12,11
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,1,training,orig,train,Tetrahedron,,airport*,,Gibbonland,,March,,6,,7:00,,AM*,,9493,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,1,test,orig,Scenario8,Charger*,True,outdoor-mall,False,Salmonland*,True,June,False,16,False,9:00,False,PM,False,10569,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,1,comments,orig,comments,,,,,,,,,,,,,,,1132,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,2,training,ext,train,Sphere,,airport*,,Lemurland,,April,,11,,7:00,,AM*,,9460,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,2,test,ext,Scenario4,Turquoise,False,religious-school,False,Sigmaland,False,October,False,7,False,9:00*,True,PM,False,10637,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,2,comments,ext,comments,,,,,,,,,,,,,,,1370,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265775,Yes,65+,Female,Ed1,NA,questionnaire,b,NA,,,,,,,,,,,,,,,6454,,,,,15,14,13,12,11,10,9
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,1,training,ext,train,Sphere,,outdoor-mall,,Lemurland,,June,,17,,10:00,,PM,,9782,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,1,test,ext,Scenario1,Purple,False,port,False,Upsilonland,False,November,False,11,False,12:00,False,AM*,True,11931,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,1,test,ext,Scenario4,Sienna,False,religious-school,False,Sigmaland,False,December,False,27,False,9:00*,True,PM,False,15837,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,1,comments,ext,comments,,,,,,,,,,,,,,,1537,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,2,training,orig,train,Sphere,,military-base,,Gibbonland,,April,,27,,8:00,,AM*,,11292,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,2,test,orig,Scenario7,Oval,False,museum,False,Flyland,False,August,False,31,False,11:00,False,AM,False,15028,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,2,test,orig,Scenario8,Raider,False,indoor-mall*,True,Sharkland,False,October,False,18,False,12:00,False,AM*,True,17822,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,2,comments,orig,comments,,,,,,,,,,,,,,,1178,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513265938,No,50-64,Other/prefer not to say ,Ed2,NA,questionnaire,a,NA,,,,,,,,,,,,,,,8780,,,,,4,5,6,7,8,9,10
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,1,training,orig,train,Sphere,,military-base,,Bonoboland*,,March,,26,,9:00,,PM,,9631,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,1,test,orig,Scenario8,Raider,False,outdoor-mall,False,Sharkland,False,November,False,15*,True,11:00,False,AM*,True,10411,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,1,comments,orig,comments,,,,,,,,,,,,,,,1438,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,2,training,ext,train,Tetrahedron,,outdoor-mall,,Bonoboland*,,July,,10,,5:00,,AM*,,11149,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,2,test,ext,Scenario7,Oval,False,power-plant,False,Spiderland,False,September*,True,29,False,11:00,False,AM,False,12495,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,2,comments,ext,comments,,,,,,,,,,,,,,,3926,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513266035,No,50-64,Male,Ed1,NA,questionnaire,b,NA,,,,,,,,,,,,,,,8214,,,,,18,18,18,18,18,18,18
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,1,training,ext,train,Sphere,,airport*,,Bonoboland*,,May,,13,,6:00,,PM,,9456,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,1,test,ext,Scenario7,Triangle*,True,hospital,False,Cricketland,False,October,False,18,False,10:00*,True,PM*,True,9090,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,1,comments,ext,comments,,,,,,,,,,,,,,,1021,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,2,training,orig,train,Cube*,,military-base,,Lemurland,,March,,10,,6:00,,AM*,,8052,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,2,test,orig,Scenario8,Panther,False,outdoor-mall,False,Salmonland*,True,December*,True,23,False,12:00,False,AM*,True,12177,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,2,comments,orig,comments,,,,,,,,,,,,,,,4733,1112111,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267005,Yes,30-49,Male,Ed1,NA,questionnaire,a,NA,,,,,,,,,,,,,,,8327,,,,,6,7,8,9,10,11,12
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,1,training,orig,train,Sphere,,military-base,,Gibbonland,,August,,28,,11:00,,AM*,,11702,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,1,test,orig,Scenario8,Raven,False,stock-market,False,Salmonland*,True,December*,True,29,False,12:00,False,AM*,True,13115,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,1,comments,orig,comments,,,,,,,,,,,,,,,4385,12345,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,2,training,ext,train,Sphere,,military-base,,Lemurland,,July,,14,,11:00,,AM*,,12789,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,2,test,ext,Scenario7,Triangle*,True,power-plant,False,Cricketland,False,November,False,6,False,7:00,False,AM,False,12140,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,2,comments,ext,comments,,,,,,,,,,,,,,,1117,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513267153,Yes,50-64,Male,Ed2,NA,questionnaire,a,NA,,,,,,,,,,,,,,,8422,,,,,20,20,20,20,20,20,20
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,1,training,ext,train,Cube*,,airport*,,Bonoboland*,,February,,5,,6:00,,PM,,11077,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,1,test,ext,Scenario8,Steeler,False,outdoor-mall,False,Sharkland,False,June,False,11,False,3:00,False,PM,False,12141,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,1,test,ext,Scenario1,Purple,False,embassy,False,Upsilonland,False,September,False,16,False,4:00,False,PM,False,11780,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,1,comments,ext,comments,,,,,,,,,,,,,,,1301,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,2,training,orig,train,Sphere,,military-base,,Gibbonland,,June,,25,,5:00,,AM*,,11157,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,2,test,orig,Scenario7,Octagon,False,museum,False,Spiderland,False,May,False,5,False,6:00,False,PM*,True,11985,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,2,test,orig,Scenario4,Teal,False,courthouse,False,Sigmaland,False,March,False,25,False,9:00*,True,PM,False,13624,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,2,comments,orig,comments,,,,,,,,,,,,,,,997,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513278348,No,65+,Female,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,11690,,,,,21,1,7,16,11,15,7
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,1,training,ext,train,Cube*,,military-base,,Gibbonland,,October,,14,,10:00,,AM*,,14129,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,1,test,ext,Scenario1,Brown,False,port,False,Upsilonland,False,September,False,18,False,9:00,False,PM,False,61604,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,1,comments,ext,comments,,,,,,,,,,,,,,,2869,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,2,training,orig,train,Tetrahedron,,military-base,,Bonoboland*,,April,,7,,3:00,,AM*,,10315,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,2,test,orig,Scenario4,Turquoise,False,religious-school,False,Omicronland*,True,August,False,21,False,7:00,False,AM*,True,14214,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,2,comments,orig,comments,,,,,,,,,,,,,,,1003,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281537,Yes,30-49,Male,Ed1,NA,questionnaire,a,NA,,,,,,,,,,,,,,,7351,,,,,1,2,3,4,5,6,7
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,1,training,orig,train,Sphere,,outdoor-mall,,Bonoboland*,,August,,25,,11:00,,AM*,,10538,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,1,test,orig,Scenario1,Gold,False,train,False,Tauland,False,September,False,14,False,9:00,False,AM*,True,12239,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,1,comments,orig,comments,,,,,,,,,,,,,,,5374,2,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,2,training,ext,train,Tetrahedron,,military-base,,Lemurland,,December,,14,,8:00,,PM,,9983,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,2,test,ext,Scenario4,Silver*,True,financial,False,Piland,False,August,False,15,False,7:00,False,PM,False,13122,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,2,comments,ext,comments,,,,,,,,,,,,,,,1068,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281679,No,65+,Male,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,7248,,,,,18,17,16,15,14,13,12
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,1,training,ext,train,Cube*,,airport*,,Bonoboland*,,December,,10,,10:00,,AM*,,10624,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,1,test,ext,Scenario1,Coral,False,train,False,Omegaland,False,May,False,4,False,9:00,False,PM,False,15478,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,1,comments,ext,comments,,,,,,,,,,,,,,,2369,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,2,training,orig,train,Cube*,,outdoor-mall,,Bonoboland*,,October,,29,,8:00,,PM,,12567,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,2,test,orig,Scenario7,Rectangle,False,hospital,False,Flyland,False,July,False,3,False,9:00,False,PM*,True,12554,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,2,comments,orig,comments,,,,,,,,,,,,,,,2351,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513281896,No,65+,Male,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,8396,,,,,1,1,1,1,1,1,1
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,1,training,ext,train,Sphere,,military-base,,Bonoboland*,,October,,29,,5:00,,AM*,,10795,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,1,test,ext,Scenario4,Rose,False,financial,False,Xiland,False,November,False,14,False,4:00,False,PM,False,12680,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,1,comments,ext,comments,,,,,,,,,,,,,,,1200,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,2,training,orig,train,Tetrahedron,,military-base,,Gibbonland,,October,,28,,8:00,,PM,,12036,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,2,test,orig,Scenario8,Raven,False,stock-market,False,Perchland,False,October,False,8,False,9:00,False,AM*,True,11431,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,2,comments,orig,comments,,,,,,,,,,,,,,,1299,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282083,Yes,30-49,Female,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,6850,,,,,19,18,17,16,15,14,13
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,1,training,orig,train,Cube*,,outdoor-mall,,Bonoboland*,,May,,7,,6:00,,PM,,11486,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,1,test,orig,Scenario1,Purple,False,train,False,Tauland,False,September,False,31,False,9:00,False,PM,False,13825,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,1,comments,orig,comments,,,,,,,,,,,,,,,1372,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,2,training,ext,train,Tetrahedron,,outdoor-mall,,Gibbonland,,July,,8,,11:00,,AM*,,9634,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,2,test,ext,Scenario7,Square,False,hospital,False,Cricketland,False,August,False,15,False,10:00*,True,PM*,True,13652,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,2,comments,ext,comments,,,,,,,,,,,,,,,1022,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282173,Yes,50-64,Female,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,8169,,,,,11,11,11,11,11,11,11
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,1,training,orig,train,Sphere,,military-base,,Lemurland,,September,,13,,4:00,,PM,,9008,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,1,test,orig,Scenario4,Turquoise,False,financial,False,Sigmaland,False,June,False,14,False,5:00,False,AM*,True,9714,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,1,comments,orig,comments,,,,,,,,,,,,,,,5486,1%2C 7,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,2,training,ext,train,Tetrahedron,,military-base,,Bonoboland*,,July,,10,,7:00,,PM,,9800,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,2,test,ext,Scenario7,Octagon,False,power-plant,False,Flyland,False,October,False,18,False,8:00,False,AM,False,11530,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,2,comments,ext,comments,,,,,,,,,,,,,,,4983,1%2C 7,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282442,No,18-29,Female,Ed1,NA,questionnaire,b,NA,,,,,,,,,,,,,,,8733,,,,,21,21,21,21,21,21,21
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,1,training,orig,train,Sphere,,military-base,,Lemurland,,May,,27,,8:00,,PM,,8674,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,1,test,orig,Scenario1,Gold,False,financial-institution*,True,Psiland*,True,March,False,9,False,4:00,False,AM*,True,9683,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,1,comments,orig,comments,,,,,,,,,,,,,,,6542,4%2C 7,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,2,training,ext,train,Tetrahedron,,military-base,,Gibbonland,,July,,18,,7:00,,PM,,9244,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,2,test,ext,Scenario7,Octagon,False,museum,False,Flyland,False,July,False,17,False,6:00,False,PM*,True,13926,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,2,comments,ext,comments,,,,,,,,,,,,,,,5298,4%2C 7,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282541,Yes,50-64,Other/prefer not to say ,Ed2,NA,questionnaire,a,NA,,,,,,,,,,,,,,,10548,,,,,4,4,4,4,4,4,4
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,1,training,ext,train,Tetrahedron,,military-base,,Bonoboland*,,September,,13,,3:00,,AM*,,8864,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,1,test,ext,Scenario7,Square,False,museum,False,Hornetland,False,September*,True,3,False,3:00,False,AM,False,12277,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,1,comments,ext,comments,,,,,,,,,,,,,,,5269,4%2C 7,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,2,training,orig,train,Tetrahedron,,outdoor-mall,,Gibbonland,,July,,22,,6:00,,AM*,,9441,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,2,test,orig,Scenario1,Purple,False,embassy,False,Psiland*,True,July,False,13,False,6:00,False,AM*,True,10018,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,2,comments,orig,comments,,,,,,,,,,,,,,,6562,7%2C 4,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513282636,No,50-64,Other/prefer not to say ,Ed1,NA,questionnaire,b,NA,,,,,,,,,,,,,,,10563,,,,,15,15,15,15,15,15,15
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,1,training,orig,train,Sphere,,military-base,,Lemurland,,April,,5,,4:00,,AM*,,9153,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,1,test,orig,Scenario7,Hexagon,False,hospital,False,Tickland*,True,April,False,3,False,4:00,False,AM,False,9985,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,1,comments,orig,comments,,,,,,,,,,,,,,,5492,74,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,2,training,ext,train,Cube*,,military-base,,Gibbonland,,June,,6,,4:00,,PM,,12074,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,2,test,ext,Scenario4,Turquoise,False,financial,False,Omicronland*,True,July,False,9,False,7:00,False,AM*,True,21813,,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,2,comments,ext,comments,,,,,,,,,,,,,,,4154,74,,,,,,,,,,
+354d3330590c7dea104fbed406b7a034--1513283393,No,30-49,Female,Ed1,NA,questionnaire,b,NA,,,,,,,,,,,,,,,12104,,,,,15,15,15,15,15,15,15

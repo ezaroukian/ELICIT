@@ -20,17 +20,19 @@ var defaults = [
     "Question", {
         hasCorrect: true
     },
-    "Message", {
-        hideProgressBar: true
-    },
+    //"Message", {
+    //    hideProgressBar: false,
+	//	countsForProgressBar: true
+    //},
     "Form", {
-        hideProgressBar: true,
+        hideProgressBar: false,
         continueOnReturn: true,
         saveReactionTime: true,
 		continueMessage: "Click here to continue"
     },
 	"FormC", {
-        hideProgressBar: true,
+        hideProgressBar: false,
+		countsForProgressBar: true,
         continueOnReturn: true,
         saveReactionTime: true,
 		continueMessage: "Click here to continue"
@@ -54,18 +56,22 @@ var items = [
 //	}],
 	["inst", "Form", {
 			html: { include: "questionnaire.html"},
-			countsForProgressBar: "false",
-			hideProgressBar: "false"	
+			countsForProgressBar: true,
+			hideProgressBar: false	
 		}
 	],
     ["sep", "Message", { 
 		html: "",
-		continueMessage: "When ready, click to continue to the next scenario"
+		continueMessage: "When ready, click to continue to the next scenario",
+		countsForProgressBar: true,
+		hideProgressBar: false	
 	}],
 
 	["middle", "Message", { 
 		html: "<p>You have completed the first half of this experiment.</p>",
-		continueMessage: "Click here to continue to the second half of the experiment"
+		continueMessage: "Click here to continue to the second half of the experiment",
+		countsForProgressBar: true,
+		hideProgressBar: false	
 	}],
 
 //	["practice-pipeline", "Message", {
@@ -82,7 +88,9 @@ var items = [
 		}
 	],
 	["inst", "Message", {
-		html: {include: "instructions.html"}
+		html: {include: "instructions.html"},
+		hideProgressBar: false,
+		countsForProgressBar: true
 		}
 	],
 	/* ["trainN", "Message", {
@@ -179,7 +187,7 @@ var items = [
             age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
         }
     } ],
-	["test-after", "Message", { html: {include: 'test.confirm.html'}} ]
+	["test-after", "Message", { html: {include: 'test.confirm.html'}, hideProgressBar: false, countsForProgressBar: true} ]
 
   
 ];
@@ -271,7 +279,7 @@ if(k<.5){
 					return "Please respond to the 1st question before continuing.";
 				case("physical"):
 					return "Please respond to the 2nd question before continuing.";
-				case("time"):
+				case("temp"):
 					return "Please respond to the 3rd question before continuing.";
 				case("success"):
 					return "Please respond to the 4th question before continuing.";
@@ -304,7 +312,7 @@ else{
 					return "Please respond to the 1st question before continuing.";
 				case("physical"):
 					return "Please respond to the 2nd question before continuing.";
-				case("time"):
+				case("temp"):
 					return "Please respond to the 3rd question before continuing.";
 				case("success"):
 					return "Please respond to the 4th question before continuing.";
