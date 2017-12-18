@@ -1,4 +1,3 @@
-//--------------------------------------------------
 //EGZ - added to replace shuffle for shorter version
 function oneOf() { 
 	return new OneOf($.map(oneOf.arguments, randomize));
@@ -12,4 +11,3 @@ function OneOf(args) {
         return [es[0]];
     }
 }
-//--------------------------------------------------
