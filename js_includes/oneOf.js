@@ -1,11 +1,8 @@
-//--------------------------------------------------
 //EGZ - added to replace shuffle for shorter version
 function oneOf() { 
-	console.log("oneOf");
 	return new OneOf($.map(oneOf.arguments, randomize));
 }
 function OneOf(args) {
-	console.log("OneOf");
     this.args = args;
 
     this.run = function(arrays) {
@@ -14,4 +11,3 @@ function OneOf(args) {
         return [es[0]];
     }
 }
-//--------------------------------------------------
