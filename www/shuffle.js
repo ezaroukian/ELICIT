@@ -217,7 +217,7 @@ function OneOf(args) {
 
     this.run = function(arrays) {
 		var es = evenShuffle(arrays);
-		console.log("    the first", Array.isArray(es), es[0].type, "(", es[1].type, ")",  );
+		//console.log("    the first", Array.isArray(es), es[0].type, "(", es[1].type, ")",  );
         return [es[0]];
     }
 }
