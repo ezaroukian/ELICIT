@@ -205,7 +205,7 @@ function anyOf() {
         return false;
     }
 }
-//--------------------------------------------------
+/* //--------------------------------------------------
 //EGZ - added to replace shuffle for shorter version
 function oneOf() { 
 	console.log("oneOf");
@@ -221,7 +221,7 @@ function OneOf(args) {
         return [es[0]];
     }
 }
-//--------------------------------------------------
+//-------------------------------------------------- */
 
 function Seq(args) {
     this.args = args;
