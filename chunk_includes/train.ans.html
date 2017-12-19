@@ -1,3 +1,10 @@
+<head>
+<style media="screen" type="text/css">
+.df {
+    font-style: italic;
+}
+</style>
+</head>
 <script>
 var timeInSeconds = 20*60;
 var currentTime = Date.parse(new Date());
@@ -34,7 +41,7 @@ var timeinterval = setInterval(updateClock,1000);
 <div style="font-weight:bold;" id="clockdiv"> Terrorist plot: </div>
 <label for="who">Who?</label> 
 <select name='who' id="who" class="obligatory" required>
-  <option value=''>Select group</option>
+  <option value='' class="df">Select group</option>
   <option value='Cube*'>Cube group</option>
   <option value='Tetrahedron'>Tetrahedron group</option>
   <option value='Sphere'>Sphere group</option>  
@@ -42,7 +49,7 @@ var timeinterval = setInterval(updateClock,1000);
 <br>
 <label for="what">What?</label>
 <select name='what' id="what" class="obligatory" required>
-  <option value=''>Select target</option>
+  <option value='' class="df">Select target</option>
   <option value='airport*'>an airport</option>
   <option value='military-base'>a military base</option>
   <option value='outdoor-mall'>a pumping station</option>
@@ -50,7 +57,7 @@ var timeinterval = setInterval(updateClock,1000);
 <br>
 <label for="where">Where?</label>
 <select name='where' id="where" class="obligatory" required>
-  <option value=''>Select country</option>
+  <option value='' class="df">Select country</option>
   <option value='Bonoboland*'>Bonoboland</option>
   <option value='Gibbonland'>Gibbonland</option>
   <option value='Lemurland'>Lemurland</option>
@@ -58,7 +65,7 @@ var timeinterval = setInterval(updateClock,1000);
 <br>
 <label for="month">When?</label>
 <select name='month' id="month" class="obligatory" required>
-  <option value=''>Select month</option>
+  <option value='' class="df">Select month</option>
   <option value='January*'>January</option>
   <option value='February'>February</option>
   <option value='March'>March</option>
@@ -73,7 +80,7 @@ var timeinterval = setInterval(updateClock,1000);
   <option value='December'>December</option>
 </select>    
 <select name='day' class="obligatory" required>
-  <option value=''>Select day</option>
+  <option value='' class="df">Select day</option>
   <option value='1*'>1</option>
   <option value='2'>2</option>
   <option value='3'>3</option>
@@ -108,7 +115,7 @@ var timeinterval = setInterval(updateClock,1000);
 </select>  
 at  
 <select name='time' class="obligatory" required>
-  <option value=''>Select time</option>
+  <option value='' class="df">Select time</option>
   <option value='1:00*'>1:00</option>
   <option value='2:00'>2:00</option>
   <option value='3:00'>3:00</option>
@@ -123,7 +130,7 @@ at
   <option value='12:00'>12:00</option>
 </select>    
 <select name='ampm' class="obligatory" required>
-  <option value=''>Select AM/PM</option>
+  <option value='' class="df">Select AM/PM</option>
   <option value='AM*'>AM</option>
   <option value='PM'>PM</option>
 </select>    
