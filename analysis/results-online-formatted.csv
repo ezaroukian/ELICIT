@@ -1,0 +1,22 @@
+worker,language,age,gender,education,block,qType,cond,scenario,who,whoCorrect,what,whatCorrect,where,whereCorrect,month,monthCorrect,day,dayCorrect,time,timeCorrect,ampm,ampmCorrect,responseTime,comments,SUS,polarity,response,mental,physical,temp,success,perf,stress,preference
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,1,training,orig,train,Cube*,,outdoor-mall,,Bonoboland*,,December,,24,,12:00,,AM*,,16808,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,1,test,orig,Scenario4,Turquoise,False,religious-school,False,Piland,False,February,False,4,False,3:00,False,AM*,True,88800,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,1,comments,orig,comments,,,,,,,,,,,,,,,8379,I'm just testing,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,2,training,ext,train,Tetrahedron,,military-base,,Gibbonland,,August,,7,,11:00,,AM*,,16492,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,2,test,ext,Scenario1,,False,,False,,False,,False,,False,,False,,False,timed-out,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,2,comments,ext,comments,,,,,,,,,,,,,,,7618,Testing no response,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513626981,No,50-64,Other/prefer not to say ,Ed3,NA,questionnaire,a,NA,,,,,,,,,,,,,,,34364,,,,,1,3,5,7,9,11,13
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,1,training,ext,train,Cube*,,airport*,,Bonoboland*,,January*,,1*,,1:00*,,AM*,,10207,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,1,test,ext,Scenario7,Circle,False,airport,False,Spiderland,False,January,False,1*,True,1:00,False,AM,False,12786,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,1,comments,ext,comments,,,,,,,,,,,,,,,7731,Testing another time,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,2,training,orig,train,Cube*,,airport*,,Bonoboland*,,January*,,1*,,1:00*,,AM*,,11288,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,2,test,orig,Scenario4,Blue,False,courthouse,False,Muland,False,January*,True,1*,True,1:00,False,AM*,True,10591,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,2,comments,orig,comments,,,,,,,,,,,,,,,15303,"Testing... not sure about the ""experiment will now begin""",,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513628777,Yes,18-29,Female,Ed1,NA,questionnaire,b,NA,,,,,,,,,,,,,,,21479,,,,,1,3,5,7,9,11,13
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,1,training,ext,train,Tetrahedron,,military-base,,Gibbonland,,February,,2,,2:00,,PM,,16080,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,1,test,ext,Scenario8,Steeler,False,outdoor-mall,False,Perchland,False,June,False,5,False,10:00*,True,AM*,True,11673,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,1,comments,ext,comments,,,,,,,,,,,,,,,7497,more testing,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,2,training,orig,train,Tetrahedron,,military-base,,Gibbonland,,April,,3,,6:00,,AM*,,8648,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,2,test,orig,Scenario4,Rose,False,financial,False,Piland,False,November,False,13,False,8:00,False,AM*,True,77753,,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,2,comments,orig,comments,,,,,,,,,,,,,,,5029,and more testing,,,,,,,,,,
+3055e45df092c9bb4e93eb60d8c18ec8--1513630066,No,30-49,Male,Ed2,NA,questionnaire,b,NA,,,,,,,,,,,,,,,31052,,,,,15,14,13,12,11,10,9
