@@ -1,4 +1,4 @@
-
+var manualSendResults = true;
 
 //var practiceItemTypes = ["1.ext.train","2.ext.train", "1.orig.train","2.orig.train"];//training_il,training_li
 
@@ -187,7 +187,11 @@ var items = [
             age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
         }
     } ],
-	["test-after", "Message", { html: {include: 'test.confirm.html'}, hideProgressBar: false, countsForProgressBar: true} ]
+	["test-after", "Message", { html: {include: 'test.confirm.html'}, hideProgressBar: false, countsForProgressBar: true} ],
+	["end.all", "__SendResults__", { }],
+	["end.all", "Message", { html: { include: "code.html" },
+		             transfer: null, }
+    	]
 
   
 ];
@@ -295,12 +299,7 @@ if(k<.5){
 		},
 		countsForProgressBar: true,
 		hideProgressBar: false		
-	}],
-	["end.a","Message", {
-		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
-		continueMessage: "Click here to send your answers to the server and complete the experiment"
-		}
-	]]);
+	}]]);
 	shuffleSequence = seq(shuffleSequence, "end.a");
 }
 else{
@@ -328,14 +327,11 @@ else{
 		},
 		countsForProgressBar: true,
 		hideProgressBar: false		
-	}],
-	["end.b","Message", {
-		html: "<p>Thank you for your participation. Your results will help us determine how best to automatically extract information from text and present it to decision makers.</p>",
-		continueMessage: "Click here to send your answers to the server and complete the experiment"
-		}
-	]])
+	}]])
 	shuffleSequence = seq(shuffleSequence, "end.b");
 }
+//then add send results for all?
+shuffleSequence = seq(shuffleSequence, "end.all");
 	
 //testing
 //shuffleSequence=seq("end");

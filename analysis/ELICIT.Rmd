@@ -47,7 +47,8 @@ multiplot <- function(..., plotlist=NULL, cols) {
 
 
 setwd("M:/IBEX-experiments/ELICIT/analysis")
-data <- read.csv("results-formatted.csv")
+#data <- read.csv("results-formatted.csv")
+data <- read.csv("results-online-formatted.csv")
 ```
 
 ##Get the dataframe ready
