@@ -190,7 +190,8 @@ var items = [
 	["test-after", "Message", { html: {include: 'test.confirm.html'}, hideProgressBar: false, countsForProgressBar: true} ],
 	["end.all", "__SendResults__", { }],
 	["end.all", "Message", { html: { include: "code.html" },
-		             transfer: null, }
+		            	transfer: null,
+				countsForProgressBar: false},
     	]
 
   
